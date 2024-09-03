@@ -21,7 +21,7 @@ const Header = ({mudanca, mud}) => {
     return(
         <div className={styles.Header}>
             <div className={styles.Header__Content}>
-                <Link to = '/'><img className={styles.Logo} src={smLogo} alt="" /></Link>
+                <Link to = '/portfolioBrenoNeves'><img className={styles.Logo} src={smLogo} alt="" /></Link>
                 
                 <nav className={styles.Header__Links}>
                 <div className={styles.MenuContainer}>
@@ -40,7 +40,7 @@ const Header = ({mudanca, mud}) => {
                 </div>
                     <ul className={styles['Header__Links-ul']}>
                         <li className={styles['Header__Links-ul-li']}>
-                            <Link className={styles['Header__Links-ul-li-a']} to = '/Work'>{mud ? 'Work' : 'Projetos'}</Link>
+                            <Link className={styles['Header__Links-ul-li-a']} to = '/portfolioBrenoNeves/Work'>{mud ? 'Work' : 'Projetos'}</Link>
                         </li>
                         <li className={styles['Header__Links-ul-li']}>
                             <Link className={styles['Header__Links-ul-li-a']} to = '/AboutMe'>{mud ? 'About Me' : 'Sobre Mim'}</Link>
