@@ -59,7 +59,7 @@ const Home = () => {
                 </div>
                 <HomeProject
                     title = 'CareLover'
-                    date = 'Abr 2024 - Abr 2024'
+                    date = {x ? 'Apr 2024 - Apr 2024' : 'Abr 2024 - Abr 2024'}
                     text = {x ? translation.home.Project.CareLoverResumeEN : translation.home.Project.CareLoverResumeBR}
                     button1 = 'UX Design'
                     button2 = 'UI Design'
@@ -76,7 +76,7 @@ const Home = () => {
                     date= 'Mar 2024 - Mar 2024'
                     text = {x ? translation.home.Project.AgileaseResumeEN : translation.home.Project.AgileaseResumeBR}
                     button1 = 'UI Design'
-                    button2 = 'Werbsite Design'
+                    button2 = 'Website Design'
                     view = {{
                         style: {color: '#E71B5A'},
                         content: x ? "VIEW CASE HERE" : "VER PROJETO",
@@ -86,7 +86,7 @@ const Home = () => {
                 ></HomeProject>
                 <HomeProject
                     title = 'Nami'
-                    date= 'Abr 2023 - Jun 2023'
+                    date= {x ? 'Apr 2023 - Jun 2023' : 'Abr 2023 - Jun 2023'}
                     text = {x ? translation.home.Project.NamiResumeEN : translation.home.Project.NamiResumeBR}
                     button1 = 'UX Design'
                     button2 = 'UI Design'
@@ -111,7 +111,7 @@ const Home = () => {
                     <div className={styles.HomeFooter__Sections}>
                         <section className={styles.HomeFooter__Section}>
                             <img className={styles['HomeFooter__Section-img']} src={Heart} alt="" />
-                            <h3 className={styles['HomeFooter__Section-h3']}>Desing Thinking</h3>
+                            <h3 className={styles['HomeFooter__Section-h3']}>Design Thinking</h3>
                             <p className={styles.TextCard1}>{x ? translation.home.cards.text1EN : translation.home.cards.text1BR}</p>
                         </section>
                         <section className={styles.HomeFooter__Section}>

@@ -69,12 +69,12 @@
 }
 
 .HomeFooter__Link {
-    width: 90%;
+    width: 82.2%;
     justify-content: flex-end;
     display: flex;
     gap: 15px;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 7.5%;
 }
 
 .HomeFooter__Link-a {
@@ -98,10 +98,12 @@
     color: #EBEBEB;
     font-size: 26px;
     font-size: calc(1vw + 10px);
+    font-weight: 600;
 }
 
 .HomeFooter__Sections {
-    width: 100%;
+    width: 76.6%;
+    margin: 0px auto;
     display: flex;
     justify-content: space-between;
 }
@@ -110,8 +112,8 @@
     border: 1px solid #1E1E1E;
     background-color: #0D0D0D;
     border-radius: 4px;
-    width: 30%;
-    height: 300px;
+    width: 32%;
+    height: 250px;
 }
 
 .HomeFooter__Section-img {
@@ -122,16 +124,17 @@
 
 .HomeFooter__Section-h3 {
     color: #E71B5A;
-    margin: 5% 0px 0px 5%;
+    margin: 3% 0px 0px 5%;
     background-color: transparent;
-    font-size: calc(0.6vw + 8.5px);
+    font-size: calc(0.6vw + 10px);
+    font-weight: 600;
 }
 
 .TextCard1 {
     color: #EBEBEB;
-    margin: 5% 0px 0px 5%;
+    margin: 2.5% 0px 0px 5%;
     background-color: transparent;
-    width: 75%;
+    width: 87%;
     line-height: 40px;
     font-size: calc(0.6vw + 6px);
 }

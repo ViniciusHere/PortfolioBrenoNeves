@@ -33,6 +33,7 @@
 .MainWorkContent__Title-h2 {
     color: #EBEBEB;
     font-size: calc(1vw + 10px);
+    font-weight: 600;
 }
 
 .MainWorkContent__Data {
@@ -51,6 +52,7 @@
 .MainWorkContent__Desc-p {
     color: #EBEBEB;
     font-size: calc(0.6vw + 6px);
+    margin-top: 2%;
 }
 
 .MainWorkContent__buttons {
@@ -66,10 +68,15 @@
     font-size: calc(0.6vw + 4px);
 }
 
+.MainWorkContent__link {
+    margin-top: 3%;
+}
+
 .MainWorkContent__link-a {
     color: #E71B5A;
     font-size: 19px;
     font-size: calc(0.6vw + 8.5px);
+    font-weight: 600;
 }
 
 .MainWorkContent__img {
