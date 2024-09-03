@@ -12,55 +12,55 @@ const Screens = ({screenTitle, img1, img2, img3, img4, title1, resume1, title2, 
             </div>
             <div className={styles.ResumeContainer}>
                 {title1 && 
-                <p className={styles.ResumeText}>
+                <div className={styles.ResumeText}>
                     <span className={styles.TextTitle}>{title1}</span>
                     {resume1}
-                </p>}
+                </div>}
 
                 {title2 && 
-                <p className={styles.ResumeText}>
+                <div className={styles.ResumeText}>
                     <span className={styles.TextTitle}>{title2}</span>
                     {resume2}
-                </p>}
+                </div>}
                 
                 {title3 && 
-                <p className={styles.ResumeText}>
+                <div className={styles.ResumeText}>
                     <span className={styles.TextTitle}>{title3}</span>
                     {resume3}
-                </p>}
+                </div>}
                 
                 {title4 && 
-                <p className={styles.ResumeText}>
+                <div className={styles.ResumeText}>
                     <span className={styles.TextTitle}>{title4}</span>
                     {resume4} <br />
                     <span style={{fontWeight: 700}}>{subtitleTitle4}</span> {subtitle4}
-                </p>}
+                </div>}
                 
                 {title5 && 
-                <p className={styles.ResumeText}>
+                <div className={styles.ResumeText}>
                     <span className={styles.TextTitle}>{title5}</span>
                     {resume5} <br />
                     <span style={{fontWeight: 700}}>{subtitleTitle5}</span> {subtitle5}
-                </p>}
+                </div>}
                 
                 {title6 && 
-                <p className={styles.ResumeText}>
+                <div className={styles.ResumeText}>
                     <span className={styles.TextTitle}>{title6}</span>
                     {resume6} <br />
                     <span style={{fontWeight: 700}}>{subtitleTitle6}</span> {subtitle6}
-                </p>}
+                </div>}
                 
                 {title7 && 
-                <p className={styles.ResumeText}>
+                <div className={styles.ResumeText}>
                     <span className={styles.TextTitle}>{title7}</span>
                     {resume7}
-                </p>}
+                </div>}
                 
                 {title8 && 
-                <p className={styles.ResumeText}>
+                <div className={styles.ResumeText}>
                     <span className={styles.TextTitle}>{title8}</span>
                     {resume8}
-                </p>}
+                </div>}
                 
             </div>
         </div>

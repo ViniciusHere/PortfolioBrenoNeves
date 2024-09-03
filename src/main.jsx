@@ -12,7 +12,7 @@ import { createBrowserRouter, RouterProvider} from 'react-router-dom'
 
 const router = createBrowserRouter([
   {
-    path: 'https://viniciushere.github.io/portfolioBrenoNeves/',
+    path: '/portfolioBrenoNeves/',
     element: <Home/>,
   },
   {
@@ -20,23 +20,23 @@ const router = createBrowserRouter([
     element: <Work/>,
   },
   {
-    path: '/AboutMe',
+    path: '/portfolioBrenoNeves/AboutMe',
     element: <AboutMe/>,
   },
   {
-    path: '/Contact',
+    path: '/portfolioBrenoNeves/Contact',
     element: <Contact/>,
   },
   {
-    path: '/WorkCareLover',
+    path: '/portfolioBrenoNeves/WorkCareLover',
     element: <WorkCareLover/>,
   },
   {
-    path: '/WorkAgilease',
+    path: '/portfolioBrenoNeves/WorkAgilease',
     element: <WorkAgilease/>,
   },
   {
-    path: '/WorkBikcraft',
+    path: '/portfolioBrenoNeves/WorkBikcraft',
     element: <WorkBikcraft/>,
   },
 ])

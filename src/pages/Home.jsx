@@ -64,7 +64,11 @@ const Home = () => {
                     button1 = 'UX Design'
                     button2 = 'UI Design'
                     button3 = 'Mobile App Design'
-                    view = {x ? <Link style={{color: '#E71B5A'}} to= '/WorkCareLover'>VIEW CASE HERE</Link> : <Link style={{color: '#E71B5A'}} to= '/WorkCareLover'>VER PROJETO</Link>} 
+                    view = {{
+                        style: {color: '#E71B5A'},
+                        content: x ? "VIEW CASE HERE" : "VER PROJETO",
+                        to: '/portfolioBrenoNeves/WorkCareLover'
+                    }} 
                     img = {CareLover}
                 ></HomeProject>
                 <HomeProject
@@ -73,7 +77,11 @@ const Home = () => {
                     text = {x ? translation.home.Project.AgileaseResumeEN : translation.home.Project.AgileaseResumeBR}
                     button1 = 'UI Design'
                     button2 = 'Werbsite Design'
-                    view = {x ? <Link style={{color: '#E71B5A'}} to= '/WorkAgilease'>VIEW CASE HERE</Link> : <Link style={{color: '#E71B5A'}} to= '/WorkAgilease'>VER PROJETO</Link>} 
+                    view = {{
+                        style: {color: '#E71B5A'},
+                        content: x ? "VIEW CASE HERE" : "VER PROJETO",
+                        to: '/portfolioBrenoNeves/WorkAgilease'
+                    }}
                     img = {Agilease}
                 ></HomeProject>
                 <HomeProject
@@ -83,7 +91,11 @@ const Home = () => {
                     button1 = 'UX Design'
                     button2 = 'UI Design'
                     button3 = 'Mobile App Design'
-                    view = {x ? <Link style={{color: '#E71B5A'}} to= '/WorkCareLover'>VIEW CASE HERE</Link> : <Link style={{color: '#E71B5A'}} to= '/WorkCareLover'>VER PROJETO</Link>} 
+                    view = {{
+                        style: {color: '#E71B5A'},
+                        content: x ? "VIEW CASE HERE" : "VER PROJETO",
+                        to: '/portfolioBrenoNeves/WorkCareLover'
+                    }}
                     img = {Nami}
               ></HomeProject>
                 <div className={styles.HomeFooterBox}>

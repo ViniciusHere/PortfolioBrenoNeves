@@ -43,10 +43,10 @@ const Header = ({mudanca, mud}) => {
                             <Link className={styles['Header__Links-ul-li-a']} to = '/portfolioBrenoNeves/Work'>{mud ? 'Work' : 'Projetos'}</Link>
                         </li>
                         <li className={styles['Header__Links-ul-li']}>
-                            <Link className={styles['Header__Links-ul-li-a']} to = '/AboutMe'>{mud ? 'About Me' : 'Sobre Mim'}</Link>
+                            <Link className={styles['Header__Links-ul-li-a']} to = '/portfolioBrenoNeves/AboutMe'>{mud ? 'About Me' : 'Sobre Mim'}</Link>
                         </li>
                         <li className={styles['Header__Links-ul-li']}>
-                            <Link className={styles['Header__Links-ul-li-a']} to = '/Contact'>{mud ? 'Contact' : 'Contato'}</Link>
+                            <Link className={styles['Header__Links-ul-li-a']} to = '/portfolioBrenoNeves/Contact'>{mud ? 'Contact' : 'Contato'}</Link>
                         </li>
                         <li className={styles['Header__Links-ul-li']}>
                             <img src={PipeLine} alt="" />

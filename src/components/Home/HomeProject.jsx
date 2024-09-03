@@ -1,4 +1,5 @@
 import styles from '../../styles/Home/HomeProject.module.css'
+import { Link } from 'react-router-dom'
 
 
 const HomeProject = ({title, date,  text, button1, button2, button3, view, img}) => {
@@ -21,7 +22,9 @@ const HomeProject = ({title, date,  text, button1, button2, button3, view, img})
                         </div>
                     </div>
                     <div className={styles.MainWorkContent__link}>
-                        <a className={styles['MainWorkContent__link-a']} href="#">{view}</a>
+                        <div className={styles.MainWorkContent__link}>
+                            <Link className={styles['MainWorkContent__link-a']} style={view.style} to={view.to}>{view.content}</Link>
+                        </div>
                     </div>
                 </div>
                 <div className={styles.MainWorkContent__img}>
