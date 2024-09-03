@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Schibsted Grotesk', 'sans-serif';
+    font-weight: 400;
+}
+
+.Container {
+    width: 90%;
+}
+
+.Title {
+    color: #E71B5A;
+    font-weight: 600;
+    font-size: calc(0.6vw + 8.5px);
+}
+
+.TitleSpan {
+    color: #EBEBEB;
+}
+
+.Data {
+    color: #707070;
+    font-weight: 600;
+    font-size: calc(0.6vw + 8.5px);
+}
+
+.Resume {
+    color: #EBEBEB;
+    font-weight: 400;
+    margin-top: 10px;
+    width: 90%;
+    font-size: calc(0.6vw + 6px);
+}

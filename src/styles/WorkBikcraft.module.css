@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Schibsted Grotesk', 'sans-serif';
+}
+
+.ProjectTitle {
+    color: #EBEBEB;
+    font-size: calc(1vw + 10px);
+    width: 70%;
+    margin: 5% auto 3% auto;
+}
+
+.ImgContainer {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.ImgContainer img {
+    width: 70%;
+}
+
+.ProjectResume {
+    color: #EBEBEB;
+    font-size: calc(0.6vw + 6px);
+    width: 70%;
+    margin: 3% auto;
+}
+
+.carousel {
+    cursor: grab;
+    overflow: hidden;
+    margin-left: 20%;
+}
+
+.inner {
+    display: flex;
+    padding-right: 2%;
+    gap: 2%;
+}
+
+.item img {
+    pointer-events: none;
+    width: calc(40vw + 30px);
+    height: calc(65vw + 50px);
+}
+
+.linkContainer {
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+}
+
+.linkContainer a{ 
+    color: #E71B5A;
+    font-weight: 600;
+    font-size: calc(0.6vw + 6px);
+}
+
+.linkContainer img {
+    font-size: calc(0.6vw + 6px);
+    width: calc(1.5vw + 10px);
+}

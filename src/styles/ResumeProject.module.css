@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Schibsted Grotesk", sans-serif;
+}
+
+.Container {
+    width: 100%;
+}
+
+.Cover {
+    width: 100%;
+}
+
+.ProjectContainer {
+    width: 70%;
+    margin: 3% auto;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ProjectDesc {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 32%;
+}
+
+.Title {
+    color: #EBEBEB;
+    font-weight: 700;
+    font-size: 24px;
+    font-size: calc(1vw + 10px);
+}
+
+.Resume {
+    color: #EBEBEB;
+    font-weight: 400;
+    width: 400px;
+    text-align: left;
+    width: 100%;
+    font-size: calc(0.6vw + 6px);
+}
+
+.Location {
+    color: #EBEBEB;
+    font-weight: 400;
+    font-size: 22px;
+    font-size: calc(0.6vw + 8.5px);
+}
+
+.Date {
+    color: #EBEBEB;
+    font-weight: 400;
+    font-size: 22px;
+    font-size: calc(0.6vw + 8.5px);
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 20px;
+}
+
+.Button {
+    border: 1px solid #707070;
+    border-radius: 4px;
+    padding: 4px 10px 4px 10px;
+    color: #707070;
+    font-weight: 400;
+    height: fit-content;
+    white-space: nowrap;
+    font-size: calc(0.6vw + 4px);
+}
+
+.Models {
+    width: 100%;
+}
+
+.TextContainer {
+    width: 70%;
+    margin: 3% auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Text {
+    color: #EBEBEB;
+    font-weight: 400;
+    font-size: calc(0.5vw + 6.5px);
+}
+
+@media (max-width: 750px) {
+    .ProjectContainer {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin: 4% auto;
+    }
+    .buttonContainer {
+        margin-top: 2%;
+    }
+    .ProjectDesc {
+        width: 60%;
+    }
+    .TextContainer {
+        margin: 4.5% auto;
+    }
+}

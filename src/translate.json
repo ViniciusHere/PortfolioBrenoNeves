@@ -1,0 +1,246 @@
+{
+    "header": [
+        {
+            "workEnglish": "Work",
+            "workPortuguese": "Projetos",
+            "aboutMeEnglish": "About Me",
+            "aboutMePortuguese": "Sobre mim",
+            "ContactEnglish": "Contact",
+            "ContactPortuguese": "Contato"
+        }
+    ],
+
+    "home": {
+            "Project": {
+                "CareLoverResumeEN": "CareLover is a non-financial charity dedicated to rescuing, helping and giving a home to needy and abandoned animals.",
+                "CareLoverResumeBR": "CareLover é uma instituição de caridade não financeira dedicada a resgatar, ajudar e dar um lar a animais necessitados e abandonados.",
+                "AgileaseResumeEN": "Agilease is a software and systems development company, operating in Nova Serrana-MG under the methodology of delivering the best product in a timely manner.",
+                "AgileaseResumeBR": "A Agilease é uma empresa de desenvolvimento de software e sistemas, com atuação em Nova Serrana-MG sob a metodologia de entregar o melhor produto no prazo.",
+                "NamiResumeEN": "Nami is a Japanese restaurant founded by Japanese-Brazilians who wanted to provide Brazil with the true Japanese cuisine, culture and ultimately, experience.",
+                "NamiResumeBR": "Nami é um restaurante japonês fundado por nipo-brasileiros que queriam oferecer ao Brasil a verdadeira culinária, cultura e, em última análise, experiência japonesa."
+            },
+            "cards": {
+                "text1EN": "Emphatize, define, ideate, prototype, test. Then do it all again.",
+                "text1BR": "Enfatizar, definir, idealizar, prototipar, testar. Então faça tudo de novo.",
+                "text2EN": "Competitive Analysis, Desk Research, Personas, Emphaty Map, Userflow, User Journey Map, A/B Testing and Interviews.",
+                "text2BR": "Análise Competitiva, Desk Research, Personas, Emphaty Map, Userflow, User Journey Map, Testes A/B e Entrevistas.",
+                "text3EN": "Design and interface development, Wireframes and Hi-Fi Prototypes using Figma and fundamentals of color, typography, hierarchy and grids.",
+                "text3BR": "Design e desenvolvimento de interfaces, Wireframes e Protótipos Hi-Fi utilizando Figma e fundamentos de cor, tipografia, hierarquia e grids."
+            }
+        },
+
+    "aboutme": {
+        "profile": {
+            "nameEN": "I’m Breno Neves",
+            "namePT": "Eu sou Breno Neves",
+            "resumeEN": "I'm a UI/UX Designer, I've worked as a Graphic Designer before in my career with 7 years of experience. I've worked in the Brand Design area, where I was able to develop visual identities for companies that were just starting up and for companies that saw the need to reformulate their identity in order to reach a new audience or reposition themselves in the market.",
+            "resumePT": "Sou UI/UX Designer, já trabalhei como Designer Gráfico antes em minha carreira com 7 anos de experiência. Atuei na área de Brand Design, onde pude desenvolver identidades visuais para empresas que estavam começando e para empresas que viam a necessidade de reformular sua identidade para atingir um novo público ou se reposicionar no mercado."
+        },
+        "experience": {
+            "1EN": "Design and implementation of intuitive interfaces and user-centered visual solutions, integrating UI and UX principles.Participation in defining MVPs and carrying out A/B tests to validate solutions.",
+            "1PT": "Design e implementação de interfaces intuitivas e soluções visuais centradas no usuário, integrando princípios UI e UX. Participação na definição de MVPs e realização de testes A/B para validação de soluções.",
+            "2EN": "Production and development of commercial presentations for clients such as Amazon, Nubank and Faber-Castell and other campaigns. Creation of offline materials, including leaflets, flyers and banners and Social Media Design.Development of commercial product packaging.",
+            "2PT": "Produção e desenvolvimento de apresentações comerciais para clientes como Amazon, Nubank e Faber-Castell e outras campanhas. Criação de materiais offline, incluindo folhetos, flyers e banners e Social Media Design. Desenvolvimento de embalagens comerciais de produtos.",
+            "3EN": "Production and development of brands and visual identities for companies and businesses, working end-to-end from Briefing, Creation, Presentation and Submission.",
+            "3PT": "Produção e desenvolvimento de marcas e identidades visuais para empresas e negócios, trabalhando de ponta a ponta desde Briefing, Criação, Apresentação e Submissão."
+        },
+        "skills": {
+            "titles": {
+                "1EN": "UI Design",
+                "1PT": "UI Design",
+
+                "2EN": "Methodology",
+                "2PT": "Metodologia",
+
+                "3EN": "Documentation",
+                "3PT": "Documentação",
+
+                "4EN": "UX Design",
+                "4PT": "UX Design",
+
+                "5EN": "Graphic Tools",
+                "5PT": "Ferramentas Graficas"
+            },
+            "resumes": {
+                "1EN": "Figma, Wireframes, Hi-Fi.",
+                "1PT": "Figma, Wireframes, Hi-Fi.",
+                
+                "2EN": "Design Thinking, Scrum",
+                "2PT": "Design Thinking, Scrum",
+                
+                "3EN": "Style Guides, Personas, Emphaty Maps User Journey Maps, Userflows.",
+                "3PT": "Guias de estilo, Personas, Emphaty Maps Mapas de jornada do usuário, Userflows.",
+                
+                "4EN": "Desk Research, A/B Tests.",
+                "4PT": "Pesquisa documental, testes A/B.",
+                
+                "5EN": "Adobe Photoshop, Adobe Illustrator.",
+                "5PT": "Adobe Photoshop, Adobe Illustrator."
+            }
+            
+        }
+    },
+
+    "workAgilease": {
+        "titleResumeEN": "Agilease is a software and systems development company, operating in Nova Serrana-MG under the methodology of delivering the best product in a timely manner.",
+        "titleResumePT": "A Agilease é uma empresa de desenvolvimento de software e sistemas, que atua em Nova Serrana-MG sob a metodologia de entregar o melhor produto no prazo.",
+        "text1EN": "This project was done in conjunction with the Visual Identity I developed for Agilease. As part of the Visual Identity project, the company's Landing Page was included.",
+        "text1PT": "Este projeto foi feito em conjunto com a Identidade Visual que desenvolvi para a Agilease. Como parte do projeto de Identidade Visual, foi incluída a Landing Page da empresa.",
+        "text2EN": "This was the final result of the Landing Page, made with a 4-column Grid, 120 margin and 60 gutter.",
+        "text2PT": "Esse foi o resultado final da Landing Page, feita com Grid de 4 colunas, margem 120 e medianiz 60."
+    },
+    "workBikcraft": {
+        "titleResumeEN": "Bikcraft is a fictitious handmade bicycle store in Rio de Janeiro. Each Bikcraft is unique and has its own identity. The measurements will be exact to your body and height, ensuring greater comfort and ergonomics on your ride. You can also completely customize your colors.",
+        "titleResumePT": "Bikcraft é uma loja fictícia de bicicletas artesanais no Rio de Janeiro. Cada Bikcraft é único e possui identidade própria. As medidas serão exatas ao seu corpo e altura, garantindo maior conforto e ergonomia no seu passeio. Você também pode personalizar completamente suas cores.",
+        "text1EN": "This project was done when I was studying UI Design at Origamid.The whole site has a Home Page, Bicycles tab, Insurance and Contact.",
+        "text1PT": "Este projeto foi feito quando eu estudava UI Design na Origamida. Todo o site possui Home Page, aba Bicicletas, Seguros e Contato.",
+        "text2EN": "In addition, the purchase screen within the site was also designed.",
+        "text2PT": "Além disso, também foi desenhada a tela de compra dentro do site.",
+        "homeResumeEN": "The Home Page lists the models of bikes available for purchase, a brief presentation of the possible customization of the models, Bikcraft's partner companies and the insurance options available.",
+        "homeResumePT": "A Home Page lista os modelos de bicicletas disponíveis para compra, uma breve apresentação das possíveis customizações dos modelos, as empresas parceiras da Bikcraft e as opções de seguros disponíveis.",
+        "bicycleResumeEN": "The bikes screen contains the models available for customization at Bikcraft. Each bike card has its own photos, features, specifications and price.",
+        "bicycleResumePT": "A tela das motos contém os modelos disponíveis para customização na Bikcraft. Cada cartão de bicicleta tem suas próprias fotos, características, especificações e preço.",
+        "bicyclesPageResumeEN": "The page for each bike has been designed in detail so that the user can see every detail of the bike and be provided with important information and technical data on each model. We also have a card so that the user can browse other models, as well as another card showing Bikcraft's insurance service.",
+        "bicyclesPageResumePT": "A página de cada bicicleta foi desenhada detalhadamente para que o usuário possa ver cada detalhe da bicicleta e receber informações e dados técnicos importantes de cada modelo. Dispomos também de um cartão para que o usuário possa navegar por outros modelos, além de outro cartão mostrando o serviço de seguros da Bikcraft.",
+        "InsuranceResumeEN": "The insurance screen first shows each repair and specification covered by the service, the plans and FAQ.",
+        "InsuranceResumePT": "A tela do seguro mostra primeiro cada reparo e especificação coberta pelo serviço, os planos e perguntas frequentes.",
+        "ContactResumeEN": "The contact screen contains the form for sending an email to the company's support and the addresses of Bikcraft's branches.",
+        "ContactResumePT": "A tela de contato contém o formulário para envio de e-mail ao suporte da empresa e os endereços das filiais da Bikcraft.",
+        "TermResumeEN": "This is probably the simplest screen on the site, which simply contains the Terms and Conditions of the site and the company.",
+        "TermResumePT": "Esta é provavelmente a tela mais simples do site, que contém apenas os Termos e Condições do site e da empresa."
+    },
+    "workCareLover": {
+        "titleResumeEN": "CareLover is a fictitious non-financial charity dedicated to rescuing, helping and giving a home to needy and abandoned animals.",
+        "titleResumePT": "CareLover é uma instituição de caridade não financeira fictícia dedicada a resgatar, ajudar e dar um lar a animais necessitados e abandonados.",
+        "text1EN":"This is a study project aimed at exploring a good user experience with security tokens. The token is a kind of digital certificate that serves to identify, authenticate and authorize the sharing of information between parties in a secure manner.",
+        "text1PT": "Este é um projeto de estudo que visa explorar uma boa experiência do usuário com tokens de segurança. O token é uma espécie de certificado digital que serve para identificar, autenticar e autorizar o compartilhamento de informações entre as partes de forma segura.",
+        "text2EN": "In this case study, the token is issued as soon as the account is created on the CareLover platform and sent to the email address the user used to register.",
+        "text2PT": "Neste estudo de caso, o token é emitido assim que a conta é criada na plataforma CareLover e enviado para o endereço de e-mail que o usuário utilizou para se cadastrar.",
+        "text3EN": "The completed Hi-Fi Prototype projects the experience from the user opening the app for the first time, through the Onboarding Screen and features the sign-in buttons and emphasis on the registration button.",
+        "text3PT": "O Protótipo Hi-Fi completo projeta a experiência desde o usuário abrir o app pela primeira vez, através da Tela de Onboarding e conta com os botões de login e destaque para o botão de cadastro.",
+        "text4EN": "After filling in the registration forms, the user is presented with the screen to enter the security token.",
+        "text4PT": "Após preencher os formulários de cadastro, o usuário é apresentado à tela para inserir o token de segurança.",
+        "text5EN": "Having completed the study of the user experience with security tokens, I also designed a brief but satisfying navigation through the app. The home screen, the Adoption, Donation and Volunteer screens were designed, as well as a quick browse through the Navbar, located at the bottom of the user's device screen.",
+        "text5PT": "Após concluir o estudo da experiência do usuário com tokens de segurança, também projetei uma navegação breve, mas satisfatória, pelo aplicativo. Foram desenhadas a tela inicial, as telas de Adoção, Doação e Voluntariado, além de uma navegação rápida pela Navbar, localizada na parte inferior da tela do dispositivo do usuário.",
+        "screens": {
+            "onboarding": {
+                    "resume1EN": "I've adopted this approach because I think it's an extremely effective way of showing the user what screens are coming up in a carousel; it's the method adopted by Instagram Stories, for example.",
+                    "resume1PT": "Adotei essa abordagem porque acho que é uma forma extremamente eficaz de mostrar ao usuário quais telas estão surgindo em um carrossel; é o método adotado pelo Instagram Stories, por exemplo.",
+                    "resume2EN": "On each screen to introduce the user to what the CareLover App/Institution is about.",
+                    "resume2PT": "Em cada tela apresentar ao usuário o que é o App/Instituição CareLover.",
+                    "resume3EN": "Login and Register buttons at the bottom of the interface. The Enter button is less prominent than the Register button, as we want new users to be encouraged to register with the Institution.",
+                    "resume3PT": "Botões de login e registro na parte inferior da interface. O botão Entrar tem menos destaque que o botão Cadastrar, pois queremos que novos usuários sejam incentivados a se cadastrar na Instituição."
+            },
+            "Registration": {
+                "resume1EN": "Institution logo at the top of the screen.",
+                "resume1PT": "Logotipo da instituição na parte superior da tela.",
+                "resume2EN": "Title 'Register' to inform the user of which screen/stage they are on and a brief description below the title. I thought it was important that this description and the general communication with the user in the app should be informal, to give the feeling of closeness and intimacy. I also considered it important for a charity to speak to its audience in this way, since it’s a charitable initiative that revolves around feelings such as love, affection and empathy. The word 'love' and 'home' are repeated quite frequently during the interfaces for this very reason.",
+                "resume2PT": "Título “Cadastrar” para informar ao usuário em qual tela/estágio ele se encontra e uma breve descrição abaixo do título. Achei importante que essa descrição e a comunicação geral com o usuário no aplicativo fossem informais, para dar a sensação de proximidade e intimidade. Também considerei importante que uma instituição de caridade fale desta forma com o seu público, pois é uma iniciativa de caridade que gira em torno de sentimentos como amor, carinho e empatia. As palavras “amor” e “casa” são repetidas com bastante frequência durante as interfaces por esse motivo.",
+                "resume3EN": "The title of each box on the form states what it requires. Inside the box is a brief instruction/confirmation of what the user needs to enter.",
+                "resume3PT": "O título de cada caixa no formulário indica o que é necessário. Dentro da caixa há uma breve instrução/confirmação do que o usuário precisa inserir.",
+                "resume4EN": "Terms and Conditions checkbox with them highlighted and filled in a different color to show the user that it’s a link.",
+                "resume4PT": "Caixa de seleção dos Termos e Condições com eles destacados e preenchidos em uma cor diferente para mostrar ao usuário que se trata de um link.",
+                "resume5EN": "Rounded registration button in CareLover's main color.",
+                "resume5PT": "Botão de registro arredondado na cor principal do CareLover.",
+                "resume6EN": "When a credential is entered incorrectly, a red outline is used around the box. Red is universally known as a danger/error color, so this approach is logically efficient and is already used by practically every digital product.",
+                "resume6PT": "Quando uma credencial é inserida incorretamente, um contorno vermelho é usado ao redor da caixa. O vermelho é universalmente conhecido como uma cor de perigo/erro, portanto esta abordagem é logicamente eficiente e já é usada por praticamente todos os produtos digitais."
+            },
+            "Security": {
+                "resume1EN": "Title Enter the code to inform the user which screen/stage they are on and a brief description below the title. This description is a little more objective and tells the user where they will receive the code needed to validate their registration and confirm its security.",
+                "resume1PT": "Título Digite o código para informar ao usuário em qual tela/estágio ele se encontra e uma breve descrição abaixo do título. Essa descrição é um pouco mais objetiva e informa ao usuário onde receberá o código necessário para validar seu cadastro e confirmar sua segurança.",
+                "resume2EN": "Instead of an entire box, the box for entering the code is made up of 5 rectangles for each character. This way, the user knows that they need to enter exactly 5 characters to continue their journey. Otherwise (non-sectioned text box), they would be indecisive and would not even know what the code they need to validate their registration is.",
+                "resume2PT": "Em vez de uma caixa inteira, a caixa de inserção do código é composta por 5 retângulos para cada caractere. Dessa forma, o usuário sabe que precisa inserir exatamente 5 caracteres para continuar sua jornada. Caso contrário (caixa de texto não seccionada), ficariam indecisos e nem saberiam qual é o código que necessitam para validar o seu registo.",
+                "resume3EN": "Button to send another code. The count is written in regular type while the button is written in bold. This approach lets the user know that they can receive another code if necessary, while at the same time it’s not the most important information on this particular screen.",
+                "resume3PT": "Botão para enviar outro código. A contagem é escrita em tipo normal, enquanto o botão está escrito em negrito. Essa abordagem permite ao usuário saber que pode receber outro código se necessário, mas ao mesmo tempo não é a informação mais importante nesta tela específica.",
+                "resume4EN": "Terms and Conditions checkbox with them highlighted and filled in a different color to show the user that it's a link.",
+                "resume4PT": "Caixa de seleção dos Termos e Condições com eles destacados e preenchidos em uma cor diferente para mostrar ao usuário que se trata de um link.",
+                "resume5EN": "Rounded registration button in CareLover's main color.",
+                "resume5PT": "Botão de registro arredondado na cor principal do CareLover.",
+                "resume6EN": "When a credential is entered incorrectly, a red outline is used around the box. Red is universally known as a danger/error color, so this approach is logically efficient and is already used by practically every digital product.",
+                "resume6PT": "Quando uma credencial é inserida incorretamente, um contorno vermelho é usado ao redor da caixa. O vermelho é universalmente conhecido como uma cor de perigo/erro, portanto esta abordagem é logicamente eficiente e já é usada por praticamente todos os produtos digitais.",
+                "resume7EN": "When a digit of the code is entered incorrectly, as with Password Error, a red outline is used around the box. The reason for outlining only the wrong box in red instead of all of them is to show the user which digit of the code is wrong instead of confusing the user and making them retype all the code.",
+                "resume7PT": "Quando um dígito do código é inserido incorretamente, como no caso de Erro de senha, um contorno vermelho é usado ao redor da caixa. A razão para delinear apenas a caixa errada em vermelho em vez de todas elas é mostrar ao usuário qual dígito do código está errado, em vez de confundir o usuário e fazê-lo redigitar todo o código.",
+                "resume8EN": "After 3 attempts to enter the wrong security code, the user will be sent a new code for verification. They will have to wait 30 seconds to receive it and enter it again. This approach prevents fraud and improper registration.",
+                "resume8PT": "Após 3 tentativas de inserção do código de segurança errado, o usuário receberá um novo código para verificação. Eles terão que esperar 30 segundos para recebê-lo e digitá-lo novamente. Essa abordagem evita fraudes e registros indevidos."
+            },
+            "home": {
+                "resume1EN": "Greeting to the user followed by a sentence. Again, the intention is to get closer to the user. Avatar right next to it.",
+                "resume1PT": "Saudação ao usuário seguida de uma frase. Novamente, a intenção é aproximar-se do usuário. Avatar bem ao lado dele.",
+                "resume2EN": "Search bar displayed quickly on the interface to make navigating the application quick.",
+                "resume2PT": "Barra de pesquisa exibida rapidamente na interface para agilizar a navegação no aplicativo.",
+                "resume3EN": "To make navigating the app quick and intuitive again, the categories are also presented briefly. Everything that can be done within the app will be here; adopt, donate and volunteer as the main and obvious functions (just as described/presented in the Onboarding screens).",
+                "resume3PT": "Para tornar a navegação no aplicativo rápida e intuitiva novamente, as categorias também são apresentadas brevemente. Tudo o que pode ser feito dentro do app estará aqui; adotar, doar e ser voluntário como funções principais e óbvias (assim como descrito/apresentado nas telas de Onboarding).",
+                "resume4EN": "The blog is in the app as the first item after the 'app header'. This is an interesting approach since I assumed that it would be extremely welcome and pertinent for users to know how the pets and campaigns they helped/contributed to are doing. The fact that the app has a blog that is updated frequently conveys a greater sense of closeness to the user and their belonging to the campaigns and animals they have helped.",
+                "resume4PT": "O blog está no aplicativo como o primeiro item após o 'cabeçalho do aplicativo'. Esta é uma abordagem interessante, pois presumi que seria extremamente bem-vindo e pertinente que os usuários soubessem como estão os animais de estimação e as campanhas para as quais ajudaram/contribuíram. O facto de a aplicação possuir um blog que é atualizado frequentemente transmite uma maior sensação de proximidade ao utilizador e de pertença às campanhas e aos animais que ajudou.",
+                "subtitle4EN": "Button to access other articles on the blog.",
+                "subtitle4PT": "Botão para acessar outros artigos do blog.",
+                "resume5EN": "Brief display of animals for adoption on the home page.",
+                "resume5PT": "Breve exposição de animais para adoção na página inicial.",
+                "subtitle5EN": "Button to access all the animals up for adoption. It's the same button/redirect as the button in the 'Adopt' category, but also displayed here at the bottom so that the user doesn't have to scroll all the way back through the interface.",
+                "subtitle5PT": "Botão para acessar todos os animais para adoção. É o mesmo botão/redirecionamento que o botão da categoria 'Adotar', mas também exibido aqui na parte inferior para que o usuário não precise rolar todo o caminho de volta pela interface.",
+                "resume6EN": "Brief visualization of donation campaigns on the home page.",
+                "resume6PT": "Breve visualização das campanhas de doação na página inicial.",
+                "subtitle6EN": "Button to access all donation campaigns. It's the same button/redirect as the button in the 'Donate' category, but also displayed here at the bottom so that the user doesn't have to scroll all the way back through the interface.",
+                "subtitle6PT": "Botão para acessar todas as campanhas de doação. É o mesmo botão/redirecionamento que o botão da categoria 'Doar', mas também exibido aqui na parte inferior para que o usuário não precise rolar totalmente a interface.",
+                "resume7EN": "For quick navigation throughout the app. Home page, search, notifications and app options.",
+                "resume7PT": "Para navegação rápida em todo o aplicativo. Página inicial, pesquisa, notificações e opções de aplicativos."
+            },
+            "adoption": {
+                "resume1": {
+                    "resume1EN": "Back button.",
+                    "resume1PT": "Botão para voltar.",
+                    "resume2EN": "Page title; here we show the user which page they are on.",
+                    "resume2PT": "Título da página; aqui mostramos ao usuário em qual página ele está.",
+                    "resume3EN": "Headline to bring the user closer and a brief description below to emphasize this idea.",
+                    "resume3PT": "Título para aproximar o usuário e uma breve descrição abaixo para enfatizar essa ideia.",
+                    "resume4EN": "Search bar for the user to quickly find what they want to see.",
+                    "resume4PT": "Barra de pesquisa para o usuário encontrar rapidamente o que deseja ver.",
+                    "resume5EN": "Animals available for adoption.",
+                    "resume5PT": "Animais aptos para adoção",
+                    "resume6EN": "Name, species, gender and size displayed next to the photo. Age shown below as secondary information.",
+                    "resume6PT": "Nome, espécie, gênero e tamanho exibidos ao lado da foto. Idade mostrada abaixo como informação secundária."
+                },
+                "resume2": {
+                    "resume1EN": "Back button.",
+                    "resume1PT": "Botão para voltar.",
+                    "resume2EN": "Page title; here we show the user which page they are on.",
+                    "resume2PT": "Título da página; aqui mostramos ao usuário em qual página ele está.",
+                    "resume3EN": "Headline to bring the user closer and a brief description below to emphasize this idea.",
+                    "resume3PT": "Título para aproximar o usuário e uma breve descrição abaixo para enfatizar essa ideia.",
+                    "resume4EN": "Search bar for the user to quickly find what they want to see.",
+                    "resume4PT": "Barra de pesquisa para o usuário encontrar rapidamente o que deseja ver.",
+                    "resume5EN": "Campaigns available for donation; the user can choose a specific campaign that they like or empathize with the most to contribute to.",
+                    "resume5PT": "Campanhas disponíveis para doação; o usuário pode escolher uma campanha específica de que goste ou com a qual tenha mais empatia para contribuir.",
+                    "resume5.5EN": "The campaign card shows the title of the campaign, the remaining date of the campaign, the amount that needs to be raised to complete the campaign and a bar that fills up as the amount raised goes up. The campaign card shows the title of the campaign, the remaining date of the campaign, the amount that needs to be raised to complete the campaign and a bar that fills up as the amount raised goes up. Below is also a donate button so that users can find more information about the campaign and donate to it.",
+                    "resume5.5PT": "O cartão da campanha mostra o título da campanha, a data restante da campanha, o valor que precisa ser arrecadado para completar a campanha e uma barra que vai enchendo conforme o valor arrecadado aumenta. O cartão da campanha mostra o título da campanha, a data restante da campanha, o valor que precisa ser arrecadado para completar a campanha e uma barra que vai enchendo conforme o valor arrecadado aumenta. Abaixo também há um botão de doação para que os usuários possam encontrar mais informações sobre a campanha e doar para ela."
+                },
+                "resume3": {
+                    "resume1EN": "Back button.",
+                    "resume1PT": "Botão para voltar.",
+                    "resume2EN": "Page title; here we show the user which page they are on.",
+                    "resume2PT": "Título da página; aqui mostramos ao usuário em qual página ele está.",
+                    "resume3EN": "Headline to bring the user closer and a brief description below to emphasize this idea.",
+                    "resume3PT": "Título para aproximar o usuário e uma breve descrição abaixo para enfatizar essa ideia.",
+                    "resume4EN": "Forms with the necessary information to be filled in by users wishing to volunteer for the Institution.",
+                    "resume4PT": "Formulários com as informações necessárias a serem preenchidas pelos usuários que desejam se voluntariar na Instituição.",
+                    "resume5EN": "Button to apply to volunteer. The message on the button again conveys closeness and intimacy. It's also a dynamic and intuitive call to action.",
+                    "resume5PT": "Botão para se candidatar a voluntário. A mensagem no botão transmite novamente proximidade e intimidade. É também um apelo à ação dinâmico e intuitivo."
+                }
+            },
+            "navbar":{
+                "text1EN": "Search screen after tapping Search in the Navbar.",
+                "text1PT": "Tela de pesquisa após tocar em Pesquisar na barra de navegação.",
+                "text2EN": "Search screen when searching with no results.",
+                "text2PT": "Tela de pesquisa ao pesquisar sem resultados.",
+                "text3EN": "Notifications screen after tapping Notifications in the Navbar; in the prototype, no new notifications",
+                "text3PT": "Tela de notificações após tocar em Notificações na barra de navegação; no protótipo, não há novas notificações",
+                "text4EN": "App Options screen after tapping App Options in the Navbar.",
+                "text4PT": "Tela de opções de aplicativos depois de tocar em Opções de aplicativos na barra de navegação."
+            }
+            
+        }
+    }
+
+       
+    
+}

@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Schibsted Grotesk', 'sans-serif';
+    font-weight: 400;
+}
+
+.Container {
+    width: 100%;
+}
+
+.Title {
+    color: #EBEBEB;
+    font-weight: 700;
+    width: 70%;
+    margin: 5% auto 0 auto;
+    font-size: 24px;
+}
+
+.ImgContainer {
+    width: 70%;
+    margin: 3% auto 3% auto;
+    display: flex;
+    justify-content: center;
+    gap: 7%;
+}
+
+.Img {
+    width: 30%;
+}
+
+.ResumeContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.ResumeText {
+    color: #EBEBEB;
+    font-weight: 400;
+    width: 70%;
+    margin: 0 auto;
+    line-height: 22px;
+}
+
+.TextTitle {
+    color: #EBEBEB;
+    font-weight: 700;
+    display: block;
+}

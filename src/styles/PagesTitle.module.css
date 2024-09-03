@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Schibsted Grotesk", sans-serif;
+}
+
+.TitleContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+.Title {
+    color: #EBEBEB;
+    font-weight: 700;
+    font-size: calc(3vw + 20px);
+    white-space: nowrap;
+}
+
+.TitleSpan {
+    color: #E71B5A;
+}

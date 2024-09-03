@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Schibsted Grotesk', 'sans-serif';
+    font-weight: 400;
+}
+
+.InviteContainer {
+    height: fit-content;
+    width: 80%;
+    margin: 5% auto 0 auto;
+}
+
+.InviteFirst {
+    color: #E71B5A;
+    font-weight: 600;
+    background-color: transparent;
+    font-size: 26px;
+    font-size: calc(1vw + 10px);
+}
+
+.InviteSecond {
+    color: #EBEBEB;
+    font-weight: 600;
+    background-color: transparent;
+    font-size: 26px;
+    font-size: calc(1vw + 10px);
+}
+
+.MainContainer {
+    display: flex;
+    width: 80%;
+    margin: 5% auto 0 auto;
+}
+
+.ContactIcons {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: calc(7% + 20px);
+}
+
+.IconsMsg {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.IconsMsg a, .IconsLink a, .IconsInst a {
+    width: fit-content;
+}
+
+.IconsLink {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.IconsInst {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.IconsMsg a i{
+    color: #E71B5A;
+    font-size: calc(0.6vw + 15px);
+}
+
+.IconsLink a i {
+    color: #E71B5A;
+    font-size: calc(0.6vw + 15px);
+}
+
+.IconsInst a i {
+    color: #E71B5A;
+    font-size: calc(0.6vw + 15px);
+}
+
+.IconText {
+    color: #EBEBEB;
+    font-weight: 500;
+    font-size: calc(0.8vw + 6px);
+}
+
+.FormContainer {
+    width: 65%;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.FormInfo {
+    display: flex;
+    gap: 30px;
+}
+
+.InfoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 49%;
+}
+
+.InfoContainerMsg {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.FormLabel {
+    color: #EBEBEB;
+    font-weight: 500;
+    font-size: 20px;
+    font-size: calc(0.6vw + 8.5px);
+}
+
+.FormInput {
+    background-color: #1E1E1E;
+    border: none;
+    border-radius: 4px;
+    text-indent: 10px;
+    width: 100%;
+    height: 45px;
+    outline: none;
+    color: #EBEBEB;
+}
+
+.FormInputMsg {
+    background-color: #1E1E1E;
+    border: none;
+    border-radius: 4px;
+    text-indent: 10px;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 200px;
+    font-size: 16px;
+    font-size: calc(0.6vw + 8.5px);
+    outline: none;
+    color: #EBEBEB;
+}
+
+.FormButton {
+    width: 150px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #E71B5A;
+    color: #000000;
+    font-weight: 600;
+    border: none;
+    font-size: 20px;
+    font-size: calc(0.5vw + 10px);
+    cursor: pointer;
+}
+
+@media (max-width: 980px) {
+    .InviteContainer {
+        white-space: nowrap;
+        margin: 5% 0 5% 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .MainContainer {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 60px;
+    }
+    .ContactIcons {
+        flex-direction: row;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .FormContainer {
+        width: 100%;
+    }
+    .FormButton {
+        width: 130px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 780px) {
+    .ContactIcons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media (max-width: 528px) {
+    .ContactIcons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .IconsMsg {
+        flex-direction: row;
+        align-items: center;
+    }
+    .IconsLink {
+        flex-direction: row;
+        align-items: center;
+    }
+    .IconsInst {
+        flex-direction: row;
+        align-items: center;
+    }
+    .FormInfo {
+        flex-direction: column;
+    }
+    .FormInput {
+        width: 100%;
+        height: 35px;
+    }
+    .InfoContainer {
+        width: 100%;
+    }
+    .FormButton {
+        width: 100px;
+        height: 35px;
+    }
+    .FormInputMsg {
+        padding-top: 5px;
+        padding-bottom: 140px;
+    }
+}

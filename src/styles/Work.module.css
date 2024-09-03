@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Schibsted Grotesk', 'sans-serif';
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.WorkContainer {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ContainerFlex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.FooterFooter {
+    width: 100%;
+}
+
+.ProjectContainer {
+    width: 85.7%; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    height: 100%;
+}
+
+@media (max-width: 1700px) {
+    .ProjectContainer {
+        grid-template-columns: 1fr;
+    }
+}

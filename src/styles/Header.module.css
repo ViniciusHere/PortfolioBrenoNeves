@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.Header {
+    background-color: #000;
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    margin-bottom: 3%;
+    margin-top: 1%;
+}
+
+.Logo {
+    width: calc(6.5vw + 50px);
+}
+
+.Header__Content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0px 7%;
+}
+
+.Header__Links {
+    background-color: transparent;
+}
+
+.Header__Links-ul  {
+    display: flex;
+    gap: 40px;
+}
+
+.Header__Links-ul-li {
+    list-style: none;
+    display: flex;
+    gap: 6px;
+    color: #EBEBEB;
+}
+
+.Header__Links-ul-li-a{
+    color: #EBEBEB;
+    list-style: none;
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    position: relative;
+}
+
+.Header__Links-ul-li-a::before {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    height: 2.2px;
+    transform: scaleX(0);
+    background-color: #ebebeb;
+    border-radius: 50px;
+    transition: 0.6s ease;
+    width: 100%;
+}
+
+.Header__Links-ul-li-a:hover::before {
+    transform: scaleX(1);
+}
+
+.Header__Links ul li span{
+    color: #EBEBEB;
+    list-style: none;
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: default;
+}
+
+select {
+    appearance: none;
+    color: rgb(255, 255, 255);
+    border: black;
+    background-color: black;
+    background-image: url('../assets/header/ArrowHeader.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    width: 90px;
+    outline: none;
+}
+
+.MenuContainer {
+    color: white;
+    position: relative;
+    padding-bottom: 100px;
+    display: block;
+    margin-top: 80px;
+    height: 100px;
+    width: 100px;
+    display: none;
+    background-color: transparent;
+}
+
+.MenuIcon {
+    position: absolute;
+    top: 0px;
+    left: 75px;
+    display: none;
+    font-size: 23px;
+    font-size: calc(1vw + 12px);
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    left: 20px;
+    top: 25px;
+    background-color: transparent;
+}
+
+.menuVisible {
+    display: none;
+    flex-direction: column;
+    gap: 5px; 
+    font-size: calc(0.6vw + 7px);
+}
+
+.menuVisible a {
+    color: #EBEBEB;
+    text-decoration: none;
+}
+
+.menuVisible select {
+    border-top: 1px solid rgba(255, 255, 255, 0.24);
+    padding-top: 5px;
+    font-size: calc(0.6vw + 7px);
+}
+
+.menuVisible select option{
+    font-size: calc(0.6vw + 8.5px);
+}
+
+@media (max-width: 850px) {
+    .Header__Links ul{
+        display: none;
+    }
+    .MenuContainer {
+        color: white;
+        display: block;
+    }
+    .MenuIcon {
+        display: block;
+    }
+    .menuVisible {
+        display: flex;
+    }
+    
+    
+}

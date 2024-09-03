@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Schibsted Grotesk', 'sans-serif';
+}
+
+.Container {
+    width: 100%;
+}
+
+.siteContainer {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.siteContainer img {
+    width: 70%;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    margin: 5% 0 8% 0;
+}
+
+.link a {
+    font-weight: 600;
+    color: #E71B5A;
+    font-size: calc(0.6vw + 6px);
+}
+
+.link img {
+    font-size: calc(0.6vw + 6px);
+    width: calc(1.5vw + 10px);
+}

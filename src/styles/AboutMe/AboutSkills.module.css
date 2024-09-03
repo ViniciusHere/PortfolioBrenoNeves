@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Schibsted Grotesk", sans-serif;
+}
+
+.Container {
+    width: 90%;
+}
+
+.Title {
+    color: #E71B5A;
+    font-weight: 400;
+    font-size: calc(0.6vw + 8.5px);
+}
+
+.Resume {
+    color: #EBEBEB;
+    font-weight: 400;
+    font-size: calc(0.6vw + 8.5px);
+}
