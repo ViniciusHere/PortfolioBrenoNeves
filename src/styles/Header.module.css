@@ -7,12 +7,12 @@
 .Header {
     background-color: #000;
     height: 70px;
-    width: 100%;
+    width: 80%;
     align-items: center;
     display: flex;
-    margin-bottom: 3%;
-    margin-top: 1%;
+    margin: 1% auto 3% auto;
 }
+
 
 .Logo {
     width: calc(6.5vw + 50px);
