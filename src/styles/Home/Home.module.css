@@ -96,8 +96,7 @@
 
 .HomeFooter__Title-p {
     color: #EBEBEB;
-    font-size: 26px;
-    font-size: calc(1vw + 10px);
+    font-size: calc(0.85vw + 10px);
     font-weight: 600;
 }
 
