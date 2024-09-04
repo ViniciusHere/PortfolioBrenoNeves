@@ -101,7 +101,7 @@
 }
 
 .HomeFooter__Sections {
-    width: 76.6%;
+    width: 80.5%;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -123,7 +123,7 @@
 
 .HomeFooter__Section-h3 {
     color: #E71B5A;
-    margin: 3% 0px 0px 5%;
+    margin: 2% 0px 0px 5%;
     background-color: transparent;
     font-size: calc(0.6vw + 10px);
     font-weight: 600;
@@ -131,7 +131,7 @@
 
 .TextCard1 {
     color: #EBEBEB;
-    margin: 2.5% 0px 0px 5%;
+    margin: 2.3% 0px 0px 5%;
     background-color: transparent;
     width: 87%;
     line-height: 40px;
@@ -149,11 +149,11 @@
 
 .TextCard3 {
     color: #EBEBEB;
-    margin: 5% 0px 0px 5%;
+    margin: 3.5% 0px 0px 5%;
     background-color: transparent;
     line-height: 25px;
-    width: 87%;
-    font-size: calc(0.6vw + 6px);
+    width: 90%;
+    font-size: calc(0.6vw + 5px);
 }
 
 @media (max-width: 895px) {
