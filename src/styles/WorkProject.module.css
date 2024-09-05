@@ -5,37 +5,30 @@
     font-family: 'Schibsted Grotesk', 'sans-serif';
 }
 
-html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
 .ProjectContainer {
-    height: 100%;
+    height: fit-content;
     width: 100%; 
     display: flex;
     flex-direction: column;
-    margin: 0 auto; 
+    margin: 0 auto 2% auto; 
     gap: 5px;
 }
 
 .ImgContainer {
     width: 100%;
-    height: 90%;
+    height: 85%;
 }
 
 .Img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .ImgInfo {
     display: flex;
-    align-items: center;
+    align-items: start;
     width: 100%; 
-    height: 10%;
 }
 
 
@@ -43,7 +36,7 @@ html, body {
     color: #EBEBEB;
     font-weight: 600;
     font-size: 28px;
-    font-size: calc(1vw + 10px);
+    font-size: calc(0.8vw + 10px);
     background-color: transparent;
 }
 
@@ -60,7 +53,7 @@ html, body {
     border-radius: 4px;
     padding: 4px 10px;
     font-size: 16px;
-    font-size: calc(0.6vw + 4px);
+    font-size: calc(0.5vw + 4px);
     background-color: transparent; 
 }
 

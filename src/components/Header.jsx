@@ -29,8 +29,8 @@ const Header = ({mudanca, mud}) => {
                         <i className="fa-solid fa-bars"></i>
                     </div>
                     <div className={`${styles.menu} ${menu === 'MenuOptions' ? styles.menuVisible : ''}`}>
-                        <a href="#">{mud ? 'Work' : 'Projetos'}</a>
-                        <a href="#">{mud ? 'About Me' : 'Sobre Mim'}</a>
+                        <a href="#">{mud ? 'Work' : 'Trabalhos'}</a>
+                        <a href="#">{mud ? 'About Me' : 'Sobre mim'}</a>
                         <a href="#">{mud ? 'Contact' : 'Contato'}</a>
                         <select onChange={mudanca}>
                                 <option>English</option>
@@ -40,10 +40,10 @@ const Header = ({mudanca, mud}) => {
                 </div>
                     <ul className={styles['Header__Links-ul']}>
                         <li className={styles['Header__Links-ul-li']}>
-                            <Link className={styles['Header__Links-ul-li-a']} to = '/portfolioBrenoNeves/Work'>{mud ? 'Work' : 'Projetos'}</Link>
+                            <Link className={styles['Header__Links-ul-li-a']} to = '/portfolioBrenoNeves/Work'>{mud ? 'Work' : 'Trabalhos'}</Link>
                         </li>
                         <li className={styles['Header__Links-ul-li']}>
-                            <Link className={styles['Header__Links-ul-li-a']} to = '/portfolioBrenoNeves/AboutMe'>{mud ? 'About Me' : 'Sobre Mim'}</Link>
+                            <Link className={styles['Header__Links-ul-li-a']} to = '/portfolioBrenoNeves/AboutMe'>{mud ? 'About Me' : 'Sobre mim'}</Link>
                         </li>
                         <li className={styles['Header__Links-ul-li']}>
                             <Link className={styles['Header__Links-ul-li-a']} to = '/portfolioBrenoNeves/Contact'>{mud ? 'Contact' : 'Contato'}</Link>

@@ -13,19 +13,19 @@
     "home": {
             "Project": {
                 "CareLoverResumeEN": "CareLover is a non-financial charity dedicated to rescuing, helping and giving a home to needy and abandoned animals.",
-                "CareLoverResumeBR": "CareLover é uma instituição de caridade não financeira dedicada a resgatar, ajudar e dar um lar a animais necessitados e abandonados.",
+                "CareLoverResumeBR": "A CareLover é uma instituição sem fins lucrativos dedicada a resgatar, ajudar e dar um lar à animais carentes e abandonados.",
                 "AgileaseResumeEN": "Agilease is a software and systems development company, operating in Nova Serrana-MG under the methodology of delivering the best product in a timely manner.",
-                "AgileaseResumeBR": "A Agilease é uma empresa de desenvolvimento de software e sistemas, com atuação em Nova Serrana-MG sob a metodologia de entregar o melhor produto no prazo.",
+                "AgileaseResumeBR": "A Agilease é uma empresa de desenvolvimento de softwares e sistemas operando em Nova Serrana-MG sob a metodologia de entregar o melhor produto em tempo hábil-recorde. ",
                 "NamiResumeEN": "Nami is a Japanese restaurant founded by Japanese-Brazilians who wanted to provide Brazil with the true Japanese cuisine, culture and ultimately, experience.",
-                "NamiResumeBR": "Nami é um restaurante japonês fundado por nipo-brasileiros que queriam oferecer ao Brasil a verdadeira culinária, cultura e, em última análise, experiência japonesa."
+                "NamiResumeBR": "A Nami é um restaurante fundado por nipo-brasileiros que queriam trazer para o Brasil a verdadeira culinária, cultura e sobretudo, experiência japonesa. "
             },
             "cards": {
                 "text1EN": "Emphatize, define, ideate, prototype, test. Then do it all again.",
-                "text1BR": "Enfatizar, definir, idealizar, prototipar, testar. Então faça tudo de novo.",
+                "text1BR": "Empatizar, definir, idealizar, prototipar, testar. E então faça tudo isso novamente.",
                 "text2EN": "Competitive Analysis, Desk Research, Personas, Emphaty Map, Userflow, User Journey Map, A/B Testing and Interviews.",
-                "text2BR": "Análise Competitiva, Desk Research, Personas, Emphaty Map, Userflow, User Journey Map, Testes A/B e Entrevistas.",
+                "text2BR": "Análise Competitiva, Desk Research, Personas, Mapa de Empatia, Userflow, Mapa de Jornada de Usuário, Teste A/B e Entrevistas com Usuários. ",
                 "text3EN": "Design and interface development, Wireframes and Hi-Fi Prototypes using Figma and fundamentals of color, typography, hierarchy and grids.",
-                "text3BR": "Design e desenvolvimento de interfaces, Wireframes e Protótipos Hi-Fi utilizando Figma e fundamentos de cor, tipografia, hierarquia e grids."
+                "text3BR": "Design e desenvolvimento de interfaces centradas no usuário, Wireframes e Protótipos de Alta Fidelidade usando Figma e fundamentos de cor, tipografia, hierarquia e grids. "
             }
         },
 

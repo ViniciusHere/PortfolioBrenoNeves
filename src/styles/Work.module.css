@@ -21,7 +21,8 @@ html, body {
 }
 
 .ContainerFlex {
-    width: 100%;
+    width: 80%;
+    margin: 0px auto;
     display: flex;
     justify-content: center;
 }
@@ -34,7 +35,7 @@ html, body {
     width: 85.7%; 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    gap: 20px;
     height: 100%;
 }
 

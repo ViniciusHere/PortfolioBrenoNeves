@@ -45,7 +45,7 @@ const Home = () => {
                             I'm a <span className={styles['Main__Header-p-span']}>UI/UX Designer</span> focused on developing the <span className={styles['Main__Header-p-span']}>best experience</span> and the <span className={styles['Main__Header-p-span']}>best design</span>  for the <span className={styles['Main__Header-p-span']}>right user</span>.
                         </p> 
                         : <p className={styles['Main__Header-p']}>
-                            Eu sou um <span className={styles['Main__Header-p-span']}>UI/UX Designer</span> focado em desenvolver a <span className={styles['Main__Header-p-span']}>melhor experiência</span> e o <span className={styles['Main__Header-p-span']}>melhor design</span> para o <span className={styles['Main__Header-p-span']}>usuário certo.</span>
+                            Eu sou um <span className={styles['Main__Header-p-span']}>UI/UX Designer</span> com foco em desenhar a <span className={styles['Main__Header-p-span']}>melhor experiência</span> e o <span className={styles['Main__Header-p-span']}>melhor design</span> para o <span className={styles['Main__Header-p-span']}>usuário certo.</span>
                         </p>}
                     <div  className={styles['HomeMain__Header-Buttons']}>
                         <button className={styles['HomeMain__Header-Button']}>UX Design</button>
@@ -66,7 +66,7 @@ const Home = () => {
                     button3 = 'Mobile App Design'
                     view = {{
                         style: {color: '#E71B5A'},
-                        content: x ? "VIEW CASE HERE" : "VER PROJETO",
+                        content: x ? "VIEW CASE HERE" : "VEJA O PROJETO AQUI",
                         to: '/portfolioBrenoNeves/WorkCareLover'
                     }} 
                     img = {CareLover}
@@ -79,7 +79,7 @@ const Home = () => {
                     button2 = 'Website Design'
                     view = {{
                         style: {color: '#E71B5A'},
-                        content: x ? "VIEW CASE HERE" : "VER PROJETO",
+                        content: x ? "VIEW CASE HERE" : "VEJA O PROJETO AQUI",
                         to: '/portfolioBrenoNeves/WorkAgilease'
                     }}
                     img = {Agilease}
@@ -93,14 +93,14 @@ const Home = () => {
                     button3 = 'Mobile App Design'
                     view = {{
                         style: {color: '#E71B5A'},
-                        content: x ? "VIEW CASE HERE" : "VER PROJETO",
+                        content: x ? "VIEW CASE HERE" : "VEJA O PROJETO AQUI",
                         to: '/portfolioBrenoNeves/WorkCareLover'
                     }}
                     img = {Nami}
               ></HomeProject>
                 <div className={styles.HomeFooterBox}>
                     <div className={styles.HomeFooter__Link}>
-                        <a className={styles['HomeFooter__Link-a']} href="#">{x ? 'SEE OTHER WORKS' : 'VER MAIS PROJETOS'}</a> 
+                        <a className={styles['HomeFooter__Link-a']} href="#">{x ? 'SEE OTHER WORKS' : 'VEJA OUTROS TRABALHOS'}</a> 
                         <span>
                             <img className={styles['HomeFooter__Link-span-img']} src={ArrowRight} alt=""/>
                         </span>
@@ -130,7 +130,7 @@ const Home = () => {
                 </div>
             </main>
             <Footer
-                work = {x ? 'Work' : 'Projetos'}
+                work = {x ? 'Work' : 'Trabalhos'}
                 about = {x ? 'About Me' : 'Sobre mim'}
                 contact = {x ? 'Contact' : 'Contato'}
             ></Footer>
