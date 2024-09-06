@@ -259,7 +259,13 @@
             "text1EN": "First of all, it's important to emphasize that UX/Product Design is not linear. However much you plan and define a process, the probability of you following this plan linearly is very small. And that's the difference between designing a fictitious project and a real one. When you develop a fictional product, you won't have any unforeseen problems to solve or any REAL misfortunes to think about and resolve. It's a great comfort that ends up not allowing you to exercise the soft skills that are important for a career as a UX Designer. However, it is a good exercise to train self-discipline and your skills in mainly Visual and UI Design. With these aspects in mind, in order to develop the best product with a good user experience, I defined and followed the following design process:",
             "text1PT": "Em primeiro lugar, é importante enfatizar que UX/Design de Produto não é linear. Por mais que você planeje e defina um processo, a probabilidade de você seguir esse plano de forma linear é muito pequena. E essa é a diferença entre elaborar um projeto fictício e um projeto real. Ao desenvolver um produto fictício, você não terá problemas imprevistos para resolver ou infortúnios REAIS para pensar e resolver. É um grande conforto que acaba não permitindo exercitar as soft skills importantes para uma carreira como UX Designer. No entanto, é um bom exercício para treinar a autodisciplina e suas habilidades principalmente em Design Visual e UI. Pensando nestes aspectos, para desenvolver o melhor produto com uma boa experiência de usuário, defini e segui o seguinte processo de design:",
             "text2EN": "Qualitative and quantitative research.",
-            "text2PT": "Pesquisa qualitativa e quantitativa."
+            "text2PT": "Pesquisa qualitativa e quantitativa.",
+            "text3EN": "Empathy maps, user personas, benchmark, customer journey map.",
+            "text3PT": "Mapas de empatia, personas de usuários, benchmark, mapa de jornada do cliente.",
+            "text5EN": "A/B testing with users to validate the good methods and experience of the wireframes.",
+            "text5PT": "Testes A/B com usuários para validar os bons métodos e experiência dos wireframes.",
+            "text6EN": "High-fidelity prototype based on the wireframes.",
+            "text6PT": "Protótipo de alta fidelidade baseado em wireframes."
         }
     }
        

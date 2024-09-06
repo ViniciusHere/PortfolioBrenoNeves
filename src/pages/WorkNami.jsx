@@ -48,7 +48,12 @@ const WorkNami = () => {
                 <p className={styles.Title}>{x ? 'THE PROCESS' : 'O PROCESSO'}</p>
                 <p className={styles.resume}>{x ? translate.workNami.theprocess.text1EN : translate.workNami.theprocess.text1PT}</p>
                 <p className={styles.resume}>
-                    <span className={styles.SubTitle}>{x ? '→Research' : '→Pesquisa'}</span> {x ? translate.workNami.theprocess.text2EN : translate.workNami.theprocess.text2PT}
+                    <span className={styles.SubTitle}>{x ? '→ Research: ' : '→ Pesquisa: '}</span> {x ? translate.workNami.theprocess.text2EN : translate.workNami.theprocess.text2PT} <br />
+                    <span className={styles.SubTitle}>{x ? '→ Define: ' : '→ Definir: '}</span> {x ? translate.workNami.theprocess.text3EN : translate.workNami.theprocess.text3PT} <br />
+                    <span className={styles.SubTitle}>{x ? '→ Ideate' : '→ Idealizar: '}</span> {x ? "Userflow." : 'Fluxo de usuário.'} <br />
+                    <span className={styles.SubTitle}>→ Wireframes: </span> {x ? 'Sketch screens.' : 'Esboçar telas.'} <br />
+                    <span className={styles.SubTitle}>{x ? '→ User testing:' : '→ Teste de usuário: '}</span> {x ? translate.workNami.theprocess.text5EN : translate.workNami.theprocess.text5PT} <br />
+                    <span className={styles.SubTitle}>→ Design: </span> {x ? translate.workNami.theprocess.text6EN : translate.workNami.theprocess.text6PT}
                 </p>
             </section>
             
