@@ -39,6 +39,10 @@ const router = createBrowserRouter([
     path: '/portfolioBrenoNeves/WorkBikcraft',
     element: <WorkBikcraft/>,
   },
+  {
+    path: '/portfolioBrenoNeves/WorkNami',
+    element: <WorkNami/>,
+  },
 ])
 
 

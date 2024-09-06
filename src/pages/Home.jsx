@@ -94,7 +94,7 @@ const Home = () => {
                     view = {{
                         style: {color: '#E71B5A'},
                         content: x ? "VIEW CASE HERE" : "VEJA O PROJETO AQUI",
-                        to: '/portfolioBrenoNeves/WorkCareLover'
+                        to: '/portfolioBrenoNeves/WorkNami'
                     }}
                     img = {Nami}
               ></HomeProject>

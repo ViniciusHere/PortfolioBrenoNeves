@@ -239,8 +239,29 @@
             }
             
         }
+    },
+    "workNami": {
+        "resumeProject": {
+            "text1EN": "Nami is a restaurant founded by Japanese-Brazilians who wanted to bring true Japanese cuisine, culture and, above all, experience to Brazil. And that's what Nami is all about: experience. Designed to provide experiences that no other restaurant can deliver. ",
+            "text1PT": "O Nami é um restaurante fundado por nipo-brasileiros que queriam trazer a verdadeira culinária, cultura e, acima de tudo, experiência japonesa para o Brasil. E é disso que se trata Nami: experiência. Projetado para proporcionar experiências que nenhum outro restaurante pode oferecer.",
+            "text2EN": "This is a fictitious project, done for study purposes. It was the first project I did in my entire career as a UX Designer and I'm very proud of the result. Because it was a fictitious project, I worked end-to-end on the project, but at the end of the day, there is a limit to how much Research and UX Design can be worked on. The UI Design stage was undoubtedly the best worked and studied part of this particular project.",
+            "text2PT": "Este é um projeto fictício, feito para fins de estudo. Foi o primeiro projeto que fiz em toda a minha carreira como UX Designer e estou muito orgulhoso do resultado. Por ser um projeto fictício, trabalhei de ponta a ponta no projeto, mas no final das contas há um limite de quanto de Pesquisa e UX Design pode ser trabalhado. A etapa de UI Design foi sem dúvida a parte mais trabalhada e estudada deste projeto em particular."
+        },
+        "theproject": {
+            "text1EN": "Nami's app came about through the need to solve the pain of using delivery apps to offer their products. Apps like iFood, Uber Eats and others charge unbelievably exorbitant fees, often forcing establishments to increase the prices of their products, frequently making them unviable or extremely expensive. In many cases, this ends up being detrimental to the establishment and unprofitable.",
+            "text1PT": "O app da Nami surgiu da necessidade de solucionar a dor de usar aplicativos de delivery para oferecer seus produtos. Aplicativos como iFood, Uber Eats e outros cobram taxas inacreditavelmente exorbitantes, muitas vezes obrigando os estabelecimentos a aumentarem os preços de seus produtos, muitas vezes tornando-os inviáveis ​​ou extremamente caros. Em muitos casos, isso acaba sendo prejudicial ao estabelecimento e não rentável.",
+            "text2EN": "My challenge in this project was to design a user experience that was easy, intuitive, satisfying and fairly priced, within the range of the establishment's average ticket.",
+            "text2PT": "Meu desafio neste projeto foi desenhar uma experiência de usuário que fosse fácil, intuitiva, satisfatória e com preço justo, dentro da faixa do ticket médio do estabelecimento.",
+            "text3EN": "Firstly, the obvious: a restaurant's own app makes it possible to avoid the exorbitant fees of delivery apps and have a higher profit margin. In addition, the product has a clean, easy-to-use interface and a feature of being able to build your complete meal - from appetizer to dessert -.",
+            "text3PT": "Em primeiro lugar, o óbvio: um aplicativo próprio de restaurante permite evitar as taxas exorbitantes dos aplicativos de delivery e ter uma margem de lucro maior. Além disso, o produto possui uma interface limpa e fácil de usar e a funcionalidade de poder montar sua refeição completa – da entrada à sobremesa -."
+        },
+        "theprocess": {
+            "text1EN": "First of all, it's important to emphasize that UX/Product Design is not linear. However much you plan and define a process, the probability of you following this plan linearly is very small. And that's the difference between designing a fictitious project and a real one. When you develop a fictional product, you won't have any unforeseen problems to solve or any REAL misfortunes to think about and resolve. It's a great comfort that ends up not allowing you to exercise the soft skills that are important for a career as a UX Designer. However, it is a good exercise to train self-discipline and your skills in mainly Visual and UI Design. With these aspects in mind, in order to develop the best product with a good user experience, I defined and followed the following design process:",
+            "text1PT": "Em primeiro lugar, é importante enfatizar que UX/Design de Produto não é linear. Por mais que você planeje e defina um processo, a probabilidade de você seguir esse plano de forma linear é muito pequena. E essa é a diferença entre elaborar um projeto fictício e um projeto real. Ao desenvolver um produto fictício, você não terá problemas imprevistos para resolver ou infortúnios REAIS para pensar e resolver. É um grande conforto que acaba não permitindo exercitar as soft skills importantes para uma carreira como UX Designer. No entanto, é um bom exercício para treinar a autodisciplina e suas habilidades principalmente em Design Visual e UI. Pensando nestes aspectos, para desenvolver o melhor produto com uma boa experiência de usuário, defini e segui o seguinte processo de design:",
+            "text2EN": "Qualitative and quantitative research.",
+            "text2PT": "Pesquisa qualitativa e quantitativa."
+        }
     }
-
        
     
 }
