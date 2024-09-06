@@ -265,7 +265,29 @@
             "text5EN": "A/B testing with users to validate the good methods and experience of the wireframes.",
             "text5PT": "Testes A/B com usuários para validar os bons métodos e experiência dos wireframes.",
             "text6EN": "High-fidelity prototype based on the wireframes.",
-            "text6PT": "Protótipo de alta fidelidade baseado em wireframes."
+            "text6PT": "Protótipo de alta fidelidade baseado em wireframes.",
+            "research": {
+                "text1EN": "I conducted in-depth interviews with delivery app users and Nami customers to learn about their experiences, preferences and needs. I felt it was important to understand their pain points and how they use delivery apps.",
+                "text1PT": "Conduzi entrevistas aprofundadas com usuários de aplicativos de entrega e clientes da Nami para conhecer suas experiências, preferências e necessidades. Achei importante entender seus pontos fracos e como eles usam os aplicativos de entrega.",
+                "text2EN": "They were relatively long conversations, so it would be necessary to dedicate half the page just to exposing all the interviews. So I've decided to present the most interesting answers and the most pertinent insights I've extracted from these conversations and from these users:",
+                "text2PT": "Foram conversas relativamente longas, então seria necessário dedicar metade da página apenas para expor todas as entrevistas. Então resolvi apresentar as respostas mais interessantes e os insights mais pertinentes que extraí dessas conversas e desses usuários:",
+                "text3EN": "“iFood's menu interface is not intuitive at all and is frustrating to use”",
+                "text3PT": "“A interface do menu do iFood não é nada intuitiva e é frustrante de usar”",
+                "text4EN": "“I would like to be able to build my entire meal at once instead of having to navigate through each category to place my order”",
+                "text4PT": "“Eu gostaria de poder preparar minha refeição inteira de uma vez, em vez de ter que navegar por cada categoria para fazer meu pedido”",
+                "text5EN": "“I like practically all of Nami's menu, but it's impractical to pay the prices on iFood. And it's not as if I want to go to the establishment every time I want something from there. Sometimes I just want to order from home, but I'm not going to pay 30% more for the food.”",
+                "text5PT": "“Gosto de praticamente todo o cardápio da Nami, mas é inviável pagar os preços no iFood. E não é como se eu quisesse ir ao estabelecimento toda vez que quero alguma coisa de lá. Às vezes só quero pedir de casa, mas não vou pagar 30% a mais pela comida.”",
+                "text6EN": "Based on these 3 insights that I considered most pertinent, it is important to consider that:",
+                "text6PT": "Com base nestes 3 insights que considerei mais pertinentes, é importante considerar que:",
+                "text7EN": "1. Nami's app needs a better solution than the competitor (iFood) to display the products.",
+                "text7PT": "1. O app da Nami precisa de uma solução melhor que o concorrente (iFood) para expor os produtos.",
+                "text8EN": "2. The feature of building your entire menu (appetizer, dinner and dessert) is interesting once the user gets discouraged by having to navigate through each category to choose each food item.",
+                "text8PT": "2. A funcionalidade de montar todo o cardápio (aperitivo, jantar e sobremesa) é interessante porque o usuário desanima ao ter que navegar por cada categoria para escolher cada alimento.",
+                "text9EN": "3. Nami's app is really necessary. It's simply unacceptable to lose delivery sales in 2024 because of platform fees.",
+                "text9PT": "3. O aplicativo da Nami é realmente necessário. É simplesmente inaceitável perder vendas de entrega em 2024 por causa das taxas da plataforma.",
+                "text10EN": "Having been able to collect some very interesting quotes from the interviews I did, I now needed to quantify these insights and understand the relevance of this data in numbers. So I created a Quantitative Research to complement our qualitative insights. It would provide statistical data to validate trends and patterns. I formulated a survey and sent it to 10 of Nami's clients. The purpose of the survey was to collect a concise amount of information, satisfaction levels, feature preferences, frequency of use, among other things, and deliver a metric that would be meaningful to start making decisions and planning Nami's product.",
+                "text10PT": "Tendo conseguido coletar algumas citações muito interessantes das entrevistas que fiz, agora precisava quantificar esses insights e entender a relevância desses dados em números. Então criei uma Pesquisa Quantitativa para complementar nossos insights qualitativos. Forneceria dados estatísticos para validar tendências e padrões. Formulei uma pesquisa e enviei para 10 clientes da Nami. O objetivo da pesquisa foi coletar uma quantidade concisa de informações, níveis de satisfação, preferências de recursos, frequência de uso, entre outras coisas, e entregar uma métrica que fosse significativa para começar a tomar decisões e planejar o produto da Nami."
+            }
         }
     }
        

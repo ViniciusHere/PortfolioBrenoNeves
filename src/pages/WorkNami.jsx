@@ -56,6 +56,23 @@ const WorkNami = () => {
                     <span className={styles.SubTitle}>→ Design: </span> {x ? translate.workNami.theprocess.text6EN : translate.workNami.theprocess.text6PT}
                 </p>
             </section>
+            <section className={styles.TextContainer}>
+                <p className={styles.Title}>{x ? 'THE PROCESS -' : 'O PROCESSO'}<span style={{color: '#E71B5A'}}>{x ? ' 1. RESEARCH' : ' 1. Pesquisa'}</span></p>
+                <p className={styles.SubTitle}>{x ? 'Qualitative Researtch' : 'Pesquisa Qualitativa'}</p>
+                <p className={styles.resume}>{x ? translate.workNami.theprocess.research.text1EN : translate.workNami.theprocess.research.text1PT}</p>
+                <p className={styles.resume}>{x ? translate.workNami.theprocess.research.text2EN : translate.workNami.theprocess.research.text2PT}</p>
+                <p className={styles.resume} style={{color: '#E71B5A'}}>{x ? translate.workNami.theprocess.research.text3EN : translate.workNami.theprocess.research.text3PT}</p>
+                <p className={styles.resume} style={{color: '#E71B5A'}}>{x ? translate.workNami.theprocess.research.text4EN : translate.workNami.theprocess.research.text4PT}</p>
+                <p className={styles.resume} style={{color: '#E71B5A'}}>{x ? translate.workNami.theprocess.research.text5EN : translate.workNami.theprocess.research.text5PT}</p>
+                <p className={styles.resume}>{x ? translate.workNami.theprocess.research.text6EN : translate.workNami.theprocess.research.text6PT}</p>
+                <p className={styles.resume}>{x ? translate.workNami.theprocess.research.text7EN : translate.workNami.theprocess.research.text7PT}</p>
+                <p className={styles.resume}>{x ? translate.workNami.theprocess.research.text8EN : translate.workNami.theprocess.research.text8PT}</p>
+                <p className={styles.resume}>{x ? translate.workNami.theprocess.research.text9EN : translate.workNami.theprocess.research.text9PT}</p>
+            </section>
+            <section className={styles.TextContainer}>
+                <p className={styles.SubTitle}>{x ? 'Quantitative Research' : 'Pesquisa Quantitativa'}</p>
+                <p className={styles.resume}>{x ? translate.workNami.theprocess.research.text10EN : translate.workNami.theprocess.research.text10PT}</p>
+            </section>
             
         </div>
     )
