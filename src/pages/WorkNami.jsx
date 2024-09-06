@@ -47,8 +47,8 @@ const WorkNami = () => {
             <section className={styles.TextContainer}>
                 <p className={styles.Title}>{x ? 'THE PROCESS' : 'O PROCESSO'}</p>
                 <p className={styles.resume}>{x ? translate.workNami.theprocess.text1EN : translate.workNami.theprocess.text1PT}</p>
-                <p>
-                    <p className={styles.resume}><span className={styles.SubTitle}>{x ? '→Research' : '→Pesquisa'}</span> {x ? translate.workNami.theprocess.text2EN : translate.workNami.theprocess.text2PT}</p>
+                <p className={styles.resume}>
+                    <span className={styles.SubTitle}>{x ? '→Research' : '→Pesquisa'}</span> {x ? translate.workNami.theprocess.text2EN : translate.workNami.theprocess.text2PT}
                 </p>
             </section>
             
