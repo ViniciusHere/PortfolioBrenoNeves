@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Schibsted Grotesk', 'sans-serif';
+    font-weight: 400;
+}
+
+.Container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    height: fit-content;
+    justify-content: space-between;
+    margin-bottom: 1.5%;
+}
+
+.TextContainer {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 1.8%;
+}
+
+.line {
+    width: 3px;
+    height: 35px;
+    margin: 2% 0 0 3%;
+    background-color: #882C2D;
+}
+
+.Text {
+    color: #EBEBEB;
+    font-weight: 400;
+    margin-bottom: 3%;
+}
+
+.Divisor {
+    border: 1px solid #1E1E1E;
+}
