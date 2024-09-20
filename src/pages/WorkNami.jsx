@@ -72,7 +72,7 @@ const WorkNami = () => {
                 </p>
             </section>
             <section className={styles.TextContainer}>
-                <p className={styles.Title}>{x ? 'THE PROCESS -' : 'O PROCESSO'}<span style={{color: '#E71B5A'}}>{x ? ' 1. RESEARCH' : ' 1. Pesquisa'}</span></p>
+                <p className={styles.Title}>{x ? 'THE PROCESS -' : 'O PROCESSO -'}<span style={{color: '#E71B5A'}}>{x ? ' 1. RESEARCH' : ' 1. PESQUISA'}</span></p>
                 <p className={styles.SubTitle}>{x ? 'Qualitative Researtch' : 'Pesquisa Qualitativa'}</p>
                 <p className={styles.resume}>{x ? translate.workNami.theprocess.research.text1EN : translate.workNami.theprocess.research.text1PT}</p>
                 <p className={styles.resume}>{x ? translate.workNami.theprocess.research.text2EN : translate.workNami.theprocess.research.text2PT}</p>
@@ -132,6 +132,18 @@ const WorkNami = () => {
                 img={Frequency11}
                 text={x ? translate.workNami.cards.text11EN : translate.workNami.cards.text11PT}
             ></Frequency>
+            <section className={styles.TextContainer}>
+                <p className={styles.resume}>{x ? translate.workNami.theprocess.research.text11EN : translate.workNami.theprocess.research.text11PT}</p>
+                <p className={styles.resume}>{x ? translate.workNami.theprocess.research.text12EN : translate.workNami.theprocess.research.text12PT}</p>
+                <p className={styles.resume}>{x ? translate.workNami.theprocess.research.text13EN : translate.workNami.theprocess.research.text13PT}</p>
+            </section>
+            <section className={styles.TextContainer}>
+                <p className={styles.Title}>{x ? 'THE PROCESS -' : 'O PROCESSO -'}<span style={{color: '#E71B5A'}}>{x ? ' 2. DEFINE' : ' 2. DEFINIR'}</span></p>
+                <p className={styles.SubTitle}>{x ? 'Empathy Map' : 'Mapa de empartia'}</p>
+                <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text1EN : translate.workNami.theoprocess2.text1PT}</p>
+                <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text2EN : translate.workNami.theoprocess2.text2PT}</p>
+                <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text3EN : translate.workNami.theoprocess2.text3PT}</p>
+            </section>
         </div>
     )
 }

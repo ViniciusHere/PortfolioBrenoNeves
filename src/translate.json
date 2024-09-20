@@ -290,7 +290,13 @@
                 "text9EN": "3. Nami's app is really necessary. It's simply unacceptable to lose delivery sales in 2024 because of platform fees.",
                 "text9PT": "3. O aplicativo da Nami é realmente necessário. É simplesmente inaceitável perder vendas de entrega em 2024 por causa das taxas da plataforma.",
                 "text10EN": "Having been able to collect some very interesting quotes from the interviews I did, I now needed to quantify these insights and understand the relevance of this data in numbers. So I created a Quantitative Research to complement our qualitative insights. It would provide statistical data to validate trends and patterns. I formulated a survey and sent it to 10 of Nami's clients. The purpose of the survey was to collect a concise amount of information, satisfaction levels, feature preferences, frequency of use, among other things, and deliver a metric that would be meaningful to start making decisions and planning Nami's product.",
-                "text10PT": "Tendo conseguido coletar algumas citações muito interessantes das entrevistas que fiz, agora precisava quantificar esses insights e entender a relevância desses dados em números. Então criei uma Pesquisa Quantitativa para complementar nossos insights qualitativos. Forneceria dados estatísticos para validar tendências e padrões. Formulei uma pesquisa e enviei para 10 clientes da Nami. O objetivo da pesquisa foi coletar uma quantidade concisa de informações, níveis de satisfação, preferências de recursos, frequência de uso, entre outras coisas, e entregar uma métrica que fosse significativa para começar a tomar decisões e planejar o produto da Nami."
+                "text10PT": "Tendo conseguido coletar algumas citações muito interessantes das entrevistas que fiz, agora precisava quantificar esses insights e entender a relevância desses dados em números. Então criei uma Pesquisa Quantitativa para complementar nossos insights qualitativos. Forneceria dados estatísticos para validar tendências e padrões. Formulei uma pesquisa e enviei para 10 clientes da Nami. O objetivo da pesquisa foi coletar uma quantidade concisa de informações, níveis de satisfação, preferências de recursos, frequência de uso, entre outras coisas, e entregar uma métrica que fosse significativa para começar a tomar decisões e planejar o produto da Nami.",
+                "text11EN": "Qualitative research completed: I was able to understand the user's behaviors and their pains. However, above all, I obtained interesting data to be validated later.",
+                "text11PT": "Pesquisa qualitativa concluída: consegui entender os comportamentos do usuário e suas dores. Porém, acima de tudo, obtive dados interessantes para serem validados posteriormente.",
+                "text12EN": "Quantitative Research done: I was able to validate a lot of what was collected in the Qualitative Research, especially the points that looked most pertinent.",
+                "text12PT": "Pesquisa Quantitativa realizada: Consegui validar muito do que foi coletado na Pesquisa Qualitativa, principalmente os pontos que me pareceram mais pertinentes.",
+                "text13EN": "The result of the whole research process was very satisfactory.",
+                "text13PT": "O resultado de todo o processo de pesquisa foi muito satisfatório."
             }
         },
         "cards": {
@@ -316,7 +322,16 @@
             "text10PT": "Sempre acreditei que as pessoas gostam de compartilhar o que gostam com os outros. E quando fiz essa pergunta imaginei que as respostas seriam em sua maioria positivas. Não imaginei que isso resultaria em respostas 100% positivas. No final das contas, talvez seja um sinal de que se o aplicativo for bem desenvolvido, não haverá muitos problemas para engajar os clientes da Nami.",
             "text11EN": "I formulated the last question of the survey to find out how open users would be to receiving updates from Nami via notifications. The fact is that notifications can be quite intrusive when active and it would be interesting to keep in mind how permissive the app would be with its users. Honestly speaking, I was surprised by the percentage of positivity.",
             "text11PT": "Formulei a última pergunta da pesquisa para descobrir o quão abertos os usuários estariam em receber atualizações da Nami por meio de notificações. O fato é que as notificações podem ser bastante intrusivas quando ativas e seria interessante ter em mente o quão permissivo o app seria com seus usuários. Sinceramente, fiquei surpreso com o percentual de positividade."
-        }
+        },
+    "theoprocess2": {
+        "text1EN": "At this stage of the project, I now had a lot of information that had been collected in the interviews. In addition, I also had a survey that could validate all the data that had been collected in these same interviews.",
+        "text1PT": "Nesta fase do projeto, já tinha muita informação que tinha sido recolhida nas entrevistas. Além disso, também tive uma pesquisa que pôde validar todos os dados que foram coletados nessas mesmas entrevistas.",
+        "text2EN": "In other words, I had a concise and well-founded database in hand to be able to define and hypothesize the rest of the project; user behaviors, scope, journey and interface design.",
+        "text2PT": "Ou seja, eu tinha em mãos um banco de dados conciso e bem fundamentado para poder definir e levantar hipóteses sobre o restante do projeto; comportamentos do usuário, escopo, jornada e design de interface.",
+        "text3EN": "With all this pre-established, I created a quick empathy map of 3 specific users who gave me the most good answers.",
+        "text3PT": "Com tudo isso pré-estabelecido, criei um rápido mapa de empatia de 3 usuários específicos que me deram respostas mais boas."
+    }
+
     }
        
     
