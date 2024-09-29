@@ -15,6 +15,10 @@ import Frequency8 from '../assets/workNami/Frequency1.png'
 import Frequency9 from '../assets/workNami/Frequency1.png'
 import Frequency10 from '../assets/workNami/Frequency1.png'
 import Frequency11 from '../assets/workNami/Frequency1.png'
+import Personas from '../assets/workNami/Personas.png'
+import BG from '../assets/workNami/BG.png'
+import UJM from '../assets/workNami/UJM.png'
+import ISF from '../assets/workNami/ISF.png'
 import { useState, useEffect } from 'react'
 import translate from '../translate.json'
 import styles from '../styles/workNami.module.css'
@@ -35,7 +39,7 @@ const WorkNami = () => {
         <div>
             <Header mudanca={handleLanguageChange} mud={x}></Header>
             <PagesTitle
-            title = 'WORK'
+            title = {x ? 'WORK' : 'PROJETO'}
             span = ' // '
             name = 'NAMI'
             >
@@ -143,6 +147,67 @@ const WorkNami = () => {
                 <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text1EN : translate.workNami.theoprocess2.text1PT}</p>
                 <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text2EN : translate.workNami.theoprocess2.text2PT}</p>
                 <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text3EN : translate.workNami.theoprocess2.text3PT}</p>
+            </section>
+            <div></div>
+            <section className={styles.TextContainer}>
+                <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text4EN : translate.workNami.theoprocess2.text4PT}</p>
+                <p className={styles.SubTitle}>{x ? "User Personas" : "Personas do Usuário" }</p>
+                <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text5EN : translate.workNami.theoprocess2.text5PT}</p>
+            </section>
+            <section className={styles.TextContainer}>
+                <img src={Personas} alt="" />
+            </section>
+            <section className={styles.TextContainer}>
+                <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text6EN : translate.workNami.theoprocess2.text6PT}</p>
+                <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text7EN : translate.workNami.theoprocess2.text7PT}</p>
+                <p className={styles.SubTitle}>{x ? 'Benchmark' : 'Referência'}</p>
+                <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text8EN : translate.workNami.theoprocess2.text8PT}</p>
+                <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text9EN : translate.workNami.theoprocess2.text9PT}</p>
+                <p className={styles.resume}>{x ? <div> But I honestly preferred to filter by Japanese restaurants for two reasons: <br /> 1. They are competitors in the same culinary sector;<br/> 2. To compare the way information and dishes are displayed (which will inevitably be similar) since, again, they are direct competitors in the specific culinary sector.</div> : <div>Mas sinceramente preferi filtrar por restaurantes japoneses por dois motivos: <br />
+                1. São concorrentes no mesmo setor culinário; <br /> 2. Comparar a forma como a informação e os pratos são apresentados (que serão inevitavelmente semelhantes), uma vez que, mais uma vez, são concorrentes diretos no setor culinário específico.</div>}</p>
+            </section>
+            <div></div>
+            <section className={styles.TextContainer}>
+                <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text10EN : translate.workNami.theoprocess2.text10PT}</p>
+                <img src={BG} alt="" />
+            </section>
+            <section className={styles.TextContainer}>
+                <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text11EN : translate.workNami.theoprocess2.text11PT}</p>
+                <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text12EN : translate.workNami.theoprocess2.text12PT}</p>
+                <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text13EN : translate.workNami.theoprocess2.text13PT}</p>
+                <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text14EN : translate.workNami.theoprocess2.text14PT}</p>
+                <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text15EN : translate.workNami.theoprocess2.text15PT}</p>
+                <p className={styles.SubTitle}>{x ? 'User Journey Map' : 'Mapa de jornada do usuário'}</p>
+                <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text16EN : translate.workNami.theoprocess2.text16PT}</p>
+                <img src={UJM} alt="" />
+                <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text17EN : translate.workNami.theoprocess2.text17PT}</p>
+                <p>{x ? <div className={styles.SubTitle}>Open iFood: <span className={styles.resume}>{translate.workNami.theoprocess2.text18EN}</span></div> : 
+                <div className={styles.SubTitle}>Abrir iFood: <span className={styles.resume}>{translate.workNami.theoprocess2.text18PT}</span></div>}</p>
+                <p>{x ? <div className={styles.SubTitle}>Browse Nami: <span className={styles.resume}>{translate.workNami.theoprocess2.text19EN}</span></div> : 
+                <div className={styles.SubTitle}>Navegar Nami: <span className={styles.resume}>{translate.workNami.theoprocess2.text119PT}</span></div>}</p>
+                <p>{x ? <div className={styles.SubTitle}>Setup the order: <span className={styles.resume}>{translate.workNami.theoprocess2.text20EN}</span></div> : 
+                <div className={styles.SubTitle}>Configure o pedido: <span className={styles.resume}>{translate.workNami.theoprocess2.text20PT}</span></div>}</p>
+                <p>{x ? <div className={styles.SubTitle}>Complete the order: <span className={styles.resume}>{translate.workNami.theoprocess2.text21EN}</span></div> : 
+                <div className={styles.SubTitle}>Complete o pedido: <span className={styles.resume}>{translate.workNami.theoprocess2.text21PT}</span></div>}</p>
+                <p>{x ? <div className={styles.SubTitle}>Pick up the order: <span className={styles.resume}>{translate.workNami.theoprocess2.text22EN}</span></div> : 
+                <div className={styles.SubTitle}>Retirar o pedido: <span className={styles.resume}>{translate.workNami.theoprocess2.text22PT}</span></div>}</p>
+            </section>
+            <section className={styles.TextContainer}>
+                <p className={styles.Title}>{x ? 'THE PROCESS -' : 'O PROCESSO -'}<span style={{color: '#E71B5A'}}>{x ? ' 3. IDEATE' : ' 3. IDEALIZAR'}</span></p>
+                <p className={styles.SubTitle}>{x ? 'User Flow' : 'Fluxo do usuário'}</p>
+                <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text23EN : translate.workNami.theoprocess2.text23PT}</p>
+                <img src={ISF} alt="" />
+                <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text24EN : translate.workNami.theoprocess2.text24PT}</p>
+            </section>
+            <section className={styles.TextContainer}>
+                <p className={styles.Title}>{x ? 'THE PROCESS -' : 'O PROCESSO -'}<span style={{color: '#E71B5A'}}>{x ? ' 4. WIREFRAMES' : ' 4. WIREFRAMES'}</span></p>
+                <p className={styles.SubTitle}>{x ? 'Sketch Screens' : 'Telas de esboço'}</p>
+            </section>
+            <div></div>
+            <section className={styles.TextContainer}>
+                <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text25EN : translate.workNami.theoprocess2.text25PT}</p>
+                <p className={styles.Title}>{x ? 'THE PROCESS -' : 'O PROCESSO -'}<span style={{color: '#E71B5A'}}>{x ? ' 5. USER TESTS' : ' 5. TESTES DE USUARIO'}</span></p>
+                <p className={styles.SubTitle}>{x ? 'Definition' : 'Definição'}</p>
             </section>
         </div>
     )
