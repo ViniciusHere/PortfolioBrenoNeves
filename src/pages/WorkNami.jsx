@@ -22,12 +22,16 @@ import ISF from '../assets/workNami/ISF.png'
 import User1 from '../assets/workNami/User1.png'
 import User2 from '../assets/workNami/User2.png'
 import User3 from '../assets/workNami/User3.png'
+import BGapp1 from '../assets/workNami/BGapp1.png'
+import BGapp2 from '../assets/workNami/BGapp2.png'
+import BGapp3 from '../assets/workNami/BGapp3.png'
 import { useState, useEffect, useRef } from 'react'
 import translate from '../translate.json'
 import styles from '../styles/workNami.module.css'
 import { motion } from 'framer-motion';
 
 const images = [User1, User2, User3]
+const imgs = [BGapp1, BGapp2, BGapp3]
 
 const WorkNami = () => {
 
@@ -172,7 +176,6 @@ const WorkNami = () => {
                 <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text2EN : translate.workNami.theoprocess2.text2PT}</p>
                 <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text3EN : translate.workNami.theoprocess2.text3PT}</p>
             </section>
-            
             <motion.div className={styles.carousel} ref={carousel} whileTap={{ cursor: 'grabbing' }}>
                 <motion.div className={styles.inner} drag="x" dragConstraints={{ right: 0, left: -width }}>
                     {images.map((image, index) => (
@@ -182,7 +185,6 @@ const WorkNami = () => {
                     ))}
                 </motion.div>
             </motion.div>
-            =
             <section className={styles.TextContainer}>
                 <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text4EN : translate.workNami.theoprocess2.text4PT}</p>
                 <p className={styles.SubTitle}>{x ? "User Personas" : "Personas do Usuário" }</p>
@@ -200,7 +202,15 @@ const WorkNami = () => {
                 <p className={styles.resume}>{x ? <div> But I honestly preferred to filter by Japanese restaurants for two reasons: <br /> 1. They are competitors in the same culinary sector;<br/> 2. To compare the way information and dishes are displayed (which will inevitably be similar) since, again, they are direct competitors in the specific culinary sector.</div> : <div>Mas sinceramente preferi filtrar por restaurantes japoneses por dois motivos: <br />
                 1. São concorrentes no mesmo setor culinário; <br /> 2. Comparar a forma como a informação e os pratos são apresentados (que serão inevitavelmente semelhantes), uma vez que, mais uma vez, são concorrentes diretos no setor culinário específico.</div>}</p>
             </section>
-            <div></div>
+            <motion.div className={styles.carousel} ref={carousel} whileTap={{ cursor: 'grabbing' }}>
+                <motion.div className={styles.inner} drag="x" dragConstraints={{ right: 0, left: -width }}>
+                    {imgs.map((image, index) => (
+                        <motion.div className={styles.item} key={index}>
+                            <img src={image} alt='' />
+                        </motion.div>
+                    ))}
+                </motion.div>
+            </motion.div>
             <section className={styles.TextContainer}>
                 <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text10EN : translate.workNami.theoprocess2.text10PT}</p>
                 <img src={BG} alt="" />
@@ -237,7 +247,9 @@ const WorkNami = () => {
                 <p className={styles.Title}>{x ? 'THE PROCESS -' : 'O PROCESSO -'}<span style={{color: '#E71B5A'}}>{x ? ' 4. WIREFRAMES' : ' 4. WIREFRAMES'}</span></p>
                 <p className={styles.SubTitle}>{x ? 'Sketch Screens' : 'Telas de esboço'}</p>
             </section>
-            <div></div>
+            <div>
+
+            </div>
             <section className={styles.TextContainer}>
                 <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text25EN : translate.workNami.theoprocess2.text25PT}</p>
                 <p className={styles.Title}>{x ? 'THE PROCESS -' : 'O PROCESSO -'}<span style={{color: '#E71B5A'}}>{x ? ' 5. USER TESTS' : ' 5. TESTES DE USUARIO'}</span></p>
