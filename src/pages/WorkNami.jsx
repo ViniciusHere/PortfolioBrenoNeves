@@ -19,11 +19,35 @@ import Personas from '../assets/workNami/Personas.png'
 import BG from '../assets/workNami/BG.png'
 import UJM from '../assets/workNami/UJM.png'
 import ISF from '../assets/workNami/ISF.png'
-import { useState, useEffect } from 'react'
+import User1 from '../assets/workNami/User1.png'
+import User2 from '../assets/workNami/User2.png'
+import User3 from '../assets/workNami/User3.png'
+import { useState, useEffect, useRef } from 'react'
 import translate from '../translate.json'
 import styles from '../styles/workNami.module.css'
+import { motion } from 'framer-motion';
+
+const images = [User1, User2, User3]
 
 const WorkNami = () => {
+
+    const carousel = useRef(null)
+    const [width, setWidth] = useState(0)
+
+    useEffect(() => {
+        const handleResize = () => {
+            if (carousel.current) {
+                setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth)
+            }
+        }
+        
+        handleResize()
+        window.addEventListener('resize', handleResize)
+        
+        return () => {
+            window.removeEventListener('resize', handleResize)
+        }
+    }, [])
 
     const [x, setX] = useState(true);
 
@@ -148,7 +172,17 @@ const WorkNami = () => {
                 <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text2EN : translate.workNami.theoprocess2.text2PT}</p>
                 <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text3EN : translate.workNami.theoprocess2.text3PT}</p>
             </section>
-            <div></div>
+            
+            <motion.div className={styles.carousel} ref={carousel} whileTap={{ cursor: 'grabbing' }}>
+                <motion.div className={styles.inner} drag="x" dragConstraints={{ right: 0, left: -width }}>
+                    {images.map((image, index) => (
+                        <motion.div className={styles.item} key={index}>
+                            <img src={image} alt='' />
+                        </motion.div>
+                    ))}
+                </motion.div>
+            </motion.div>
+            =
             <section className={styles.TextContainer}>
                 <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text4EN : translate.workNami.theoprocess2.text4PT}</p>
                 <p className={styles.SubTitle}>{x ? "User Personas" : "Personas do Usuário" }</p>
@@ -208,6 +242,30 @@ const WorkNami = () => {
                 <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text25EN : translate.workNami.theoprocess2.text25PT}</p>
                 <p className={styles.Title}>{x ? 'THE PROCESS -' : 'O PROCESSO -'}<span style={{color: '#E71B5A'}}>{x ? ' 5. USER TESTS' : ' 5. TESTES DE USUARIO'}</span></p>
                 <p className={styles.SubTitle}>{x ? 'Definition' : 'Definição'}</p>
+                <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text26EN : translate.workNami.theoprocess2.text26PT}</p>
+                <div>
+                    <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text27EN : translate.workNami.theoprocess2.text27PT}</p>
+                    <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text28EN : translate.workNami.theoprocess2.text28PT}</p>
+                    <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text29EN : translate.workNami.theoprocess2.text29PT}</p>
+                </div>
+                <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text30EN : translate.workNami.theoprocess2.text30PT}</p>
+                <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text31EN : translate.workNami.theoprocess2.text31PT}</p>
+                <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text32EN : translate.workNami.theoprocess2.text32PT}</p>
+                <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text33EN : translate.workNami.theoprocess2.text33PT}</p>
+                <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text34EN : translate.workNami.theoprocess2.text34PT}</p>
+                <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text35EN : translate.workNami.theoprocess2.text35PT}</p>
+                <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text36EN : translate.workNami.theoprocess2.text36PT}</p>
+                <div>
+                    <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text37EN : translate.workNami.theoprocess2.text37PT}</p>
+                    <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text38EN : translate.workNami.theoprocess2.text38PT}</p>
+                    <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text39EN : translate.workNami.theoprocess2.text39PT}</p>
+                    <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text40EN : translate.workNami.theoprocess2.text40PT}</p>
+                    <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text41EN : translate.workNami.theoprocess2.text41PT}</p>
+                </div>
+                <p className={styles.resume}>{x ? translate.workNami.theoprocess2.text42EN : translate.workNami.theoprocess2.text42PT}</p>
+                <div>
+                    
+                </div>
             </section>
         </div>
     )

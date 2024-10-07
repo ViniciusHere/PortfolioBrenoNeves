@@ -33,3 +33,23 @@
     font-size: calc(0.6vw + 6px);
     color: white;
 }
+
+.carousel {
+    cursor: grab;
+    overflow: hidden;
+    margin-left: 15%;
+    width: 70%;
+    margin: 0px auto;
+}
+
+.inner {
+    display: flex;
+    gap: 19px;
+}
+
+.item img {
+    pointer-events: none;
+    width: calc(27vw + 46px);
+    height: calc(35vw + 57px);
+}
+
